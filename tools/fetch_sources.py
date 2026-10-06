@@ -2,7 +2,7 @@
 import hashlib
 import json
 from pathlib import Path
-from urllib.request import urlopen
+from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -16,7 +16,9 @@ def main():
         if destination.exists():
             data = destination.read_bytes()
         else:
-            with urlopen(source["url"],timeout=120) as response:
+            # Census serves these public files to browser-style requests.
+            request = Request(source["url"], headers={"User-Agent": "Mozilla/5.0"})
+            with urlopen(request,timeout=120) as response:
                 data = response.read(20*1024*1024+1)
         if len(data) != source["bytes"] or hashlib.sha256(data).hexdigest() != source["sha256"]:
             raise ValueError(f"Source size/hash mismatch: {source['source_id']}")

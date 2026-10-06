@@ -27,6 +27,6 @@ Codex helped transcribe the answers, and the same annotator checked them a secon
 
 I keep the full PDFs local and out of Git. The project records links, file hashes, page choices, answer references, and results instead of copying the full reports into the repository.
 
-The Census Bureau's [public access policy](https://www2.census.gov/foia/ds_policies/ds027.pdf) says that work made by Bureau employees is generally not under U.S. copyright, but it also lists exceptions and rules for other countries. I have not treated that general policy as a reuse license for each report. Before public release, I still need to check the terms for the reports, software, and model files.
+The Census Bureau's [public access policy](https://www2.census.gov/foia/ds_policies/ds027.pdf) says that work made by Bureau employees is generally not under U.S. copyright, but it also lists exceptions and rules for other countries. The repository contains reference excerpts and selected aggregate values, not whole PDFs. The project MIT license does not relicense Census material. See the [source and software notices](../THIRD_PARTY_NOTICES.md) for the source-only release scope and separate component terms.
 
 The [annotation notes](../data/annotations/README.md) explain the answer references and how I scored text and values. The [case study](CASE_STUDY.md) explains the test and its results.

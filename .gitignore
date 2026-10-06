@@ -13,6 +13,7 @@ runs/
 *.egg-info/
 dist/
 build/
+release-artifacts/
 /WORK_LOG.md
 /docs/COMPLETION_AUDIT.md
 /results/A/execution.log
