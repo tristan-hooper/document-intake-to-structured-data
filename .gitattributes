@@ -1,0 +1,2 @@
+# Preserve benchmark hashes across checkouts. Do not normalize recorded bytes.
+* -text
