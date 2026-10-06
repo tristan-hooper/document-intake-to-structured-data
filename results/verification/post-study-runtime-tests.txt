@@ -1,0 +1,4 @@
+Command: .venv\Scripts\python.exe -m pytest -q --basetemp .cache\pytest-runtime-revision-1
+Exit code: 0
+Result: 32 passed in 1.91s
+Post-exit note: pyreadline3 emitted a Console.__del__ WinError 0xC0000008 after the pytest summary. The process exit code remained zero and pytest reported no failed or errored tests.

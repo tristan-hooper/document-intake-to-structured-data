@@ -1,0 +1,13 @@
+Selected-runtime setup verification
+
+Interpreter: CPython 3.12.10 on Windows 11
+uv: 0.10.7
+Environment: fresh isolated environment under the ignored project .cache directory
+Dependencies: 30 pinned packages from requirements-rapidocr.lock; each package/version matches the corresponding pin in requirements-benchmark.lock
+Project install: editable local package, no dependency re-resolution
+Network: disabled; wheels were read from the existing local uv cache
+Source verification: all four PDF hashes, byte counts and page counts passed
+Model verification: all three Pipeline B model files passed their manifest checks
+Elapsed time: 13.42 seconds for venv creation, cached package install, editable install, source verification and B-model verification
+
+This is a warm-cache, offline setup measurement. The source PDFs and B model weights already existed locally; their first download time and wire-transfer volume were not measured. For this run, uv used a project-local TEMP/TMP directory and --link-mode=copy. The README commands show the selected setup path for Windows users.

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "device": "CPU",
+  "threads": 4,
+  "page_timeout_seconds": 120,
+  "initialization_timeout_seconds": 120,
+  "acceptance_policy": "all_fields_review_required",
+  "geometry_margin_normalized": 0.003,
+  "A": {"engine": "Tesseract", "version": "5.5.3.20260724", "language": "eng", "oem": 1, "psm": 3, "model": "tessdata_fast/eng"},
+  "B": {"engine": "RapidOCR", "version": "3.4.2", "recognition": "en_PP-OCRv4_rec_infer.onnx", "detection": "ch_PP-OCRv4_det_infer.onnx", "classification": "ch_ppocr_mobile_v2.0_cls_infer.onnx", "max_side_len": 2000, "text_score": 0.5, "return_word_box": true},
+  "C": {"engine": "Docling + RapidOCR", "docling_version": "2.67.0", "recognition_weights": "same as B", "full_page_ocr": true, "table_structure": true, "generate_parsed_pages": true, "layout": "docling_layout_heron", "enrichment": false, "internal_image_scaling": "Docling image backend uses pixel dimensions as page units; OCR upscales 3x and table model crops 2x before their internal resizing. This is a pipeline difference, not a pure layout ablation."}
+}

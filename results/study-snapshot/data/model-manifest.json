@@ -1,0 +1,413 @@
+{
+  "files": [
+    {
+      "path": "models/rapidocr/ch_PP-OCRv4_det_infer.onnx",
+      "url": "https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.4.0/onnx/PP-OCRv4/det/ch_PP-OCRv4_det_infer.onnx",
+      "sha256": "d2a7720d45a54257208b1e13e36a8479894cb74155a5efe29462512d42f49da9",
+      "bytes": 4745517
+    },
+    {
+      "path": "models/rapidocr/ch_ppocr_mobile_v2.0_cls_infer.onnx",
+      "url": "https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.4.0/onnx/PP-OCRv4/cls/ch_ppocr_mobile_v2.0_cls_infer.onnx",
+      "sha256": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c",
+      "bytes": 585532
+    },
+    {
+      "path": "models/rapidocr/en_PP-OCRv4_rec_infer.onnx",
+      "url": "https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.4.0/onnx/PP-OCRv4/rec/en_PP-OCRv4_rec_infer.onnx",
+      "sha256": "e8770c967605983d1570cdf5352041dfb68fa0c21664f49f47b155abd3e0e318",
+      "bytes": 7653044
+    },
+    {
+      "path": "models/docling/docling-project--docling-layout-heron/.gitattributes",
+      "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+      "bytes": 1519,
+      "url": "https://huggingface.co/docling-project/docling-layout-heron/resolve/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/.gitattributes",
+      "revision": "8f39ad3c0b4c58e9c2d2c84a38465abf757272d8"
+    },
+    {
+      "path": "models/docling/docling-project--docling-layout-heron/config.json",
+      "sha256": "fdea30805ce2f5666b147fca941dcdd27ad468e27d6ed21902207d3da056a97d",
+      "bytes": 3268,
+      "url": "https://huggingface.co/docling-project/docling-layout-heron/resolve/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/config.json",
+      "revision": "8f39ad3c0b4c58e9c2d2c84a38465abf757272d8"
+    },
+    {
+      "path": "models/docling/docling-project--docling-layout-heron/docling_heron_400.png",
+      "sha256": "e7f78610372b32a7938e480d2c7fa1c3037ee170bd82282a5bd026232f6e6f9e",
+      "bytes": 96925,
+      "url": "https://huggingface.co/docling-project/docling-layout-heron/resolve/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/docling_heron_400.png",
+      "revision": "8f39ad3c0b4c58e9c2d2c84a38465abf757272d8"
+    },
+    {
+      "path": "models/docling/docling-project--docling-layout-heron/model.safetensors",
+      "sha256": "00333a43451945aaf89db8ca9c0a17e75d1537c17db60fdb91aa95f4c7929e0c",
+      "bytes": 171658996,
+      "url": "https://huggingface.co/docling-project/docling-layout-heron/resolve/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/model.safetensors",
+      "revision": "8f39ad3c0b4c58e9c2d2c84a38465abf757272d8"
+    },
+    {
+      "path": "models/docling/docling-project--docling-layout-heron/preprocessor_config.json",
+      "sha256": "cd38cd59999e7a95d68e487fbe5132df3d4e5c32a0836add57e6126ba0c4eaf1",
+      "bytes": 444,
+      "url": "https://huggingface.co/docling-project/docling-layout-heron/resolve/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/preprocessor_config.json",
+      "revision": "8f39ad3c0b4c58e9c2d2c84a38465abf757272d8"
+    },
+    {
+      "path": "models/docling/docling-project--docling-layout-heron/README.md",
+      "sha256": "175700839bc7808eac6af1d0c23e4f483606ab2276fe01122f4093e61a1a65b6",
+      "bytes": 3219,
+      "url": "https://huggingface.co/docling-project/docling-layout-heron/resolve/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/README.md",
+      "revision": "8f39ad3c0b4c58e9c2d2c84a38465abf757272d8"
+    },
+    {
+      "path": "models/docling/docling-project--docling-models/.gitattributes",
+      "sha256": "360aba3ff7ce75396f13f0a77925fe9e79997e8d4bac064595ebb00c82700386",
+      "bytes": 1905,
+      "url": "https://huggingface.co/docling-project/docling-models/resolve/fc0f2d45e2218ea24bce5045f58a389aed16dc23/.gitattributes",
+      "revision": "fc0f2d45e2218ea24bce5045f58a389aed16dc23"
+    },
+    {
+      "path": "models/docling/docling-project--docling-models/.gitignore",
+      "sha256": "b44b404189eaff3631c470946e7350c2e88cead304d332a8ad50325e6f56e95d",
+      "bytes": 5180,
+      "url": "https://huggingface.co/docling-project/docling-models/resolve/fc0f2d45e2218ea24bce5045f58a389aed16dc23/.gitignore",
+      "revision": "fc0f2d45e2218ea24bce5045f58a389aed16dc23"
+    },
+    {
+      "path": "models/docling/docling-project--docling-models/config.json",
+      "sha256": "9c34024dc28ff47b75818f415e769809798c29bf9bde6f2ccc63a4acb62396d9",
+      "bytes": 41,
+      "url": "https://huggingface.co/docling-project/docling-models/resolve/fc0f2d45e2218ea24bce5045f58a389aed16dc23/config.json",
+      "revision": "fc0f2d45e2218ea24bce5045f58a389aed16dc23"
+    },
+    {
+      "path": "models/docling/docling-project--docling-models/model_artifacts/tableformer/accurate/tableformer_accurate.safetensors",
+      "sha256": "2a7d6c924b3cd12fb99a09280ca9c33a89c5d60b93253617d2e088c1a40374d9",
+      "bytes": 212758388,
+      "url": "https://huggingface.co/docling-project/docling-models/resolve/fc0f2d45e2218ea24bce5045f58a389aed16dc23/model_artifacts/tableformer/accurate/tableformer_accurate.safetensors",
+      "revision": "fc0f2d45e2218ea24bce5045f58a389aed16dc23"
+    },
+    {
+      "path": "models/docling/docling-project--docling-models/model_artifacts/tableformer/accurate/tm_config.json",
+      "sha256": "984e122ceb8ccf84d84c9d2882f6f2302a44b4f1e577babd6289892c36f3cffd",
+      "bytes": 7060,
+      "url": "https://huggingface.co/docling-project/docling-models/resolve/fc0f2d45e2218ea24bce5045f58a389aed16dc23/model_artifacts/tableformer/accurate/tm_config.json",
+      "revision": "fc0f2d45e2218ea24bce5045f58a389aed16dc23"
+    },
+    {
+      "path": "models/docling/docling-project--docling-models/model_artifacts/tableformer/fast/tableformer_fast.safetensors",
+      "sha256": "3119563aab5a7c96fda4d621119b63fd8806272b86c30936d15507616422f718",
+      "bytes": 145453276,
+      "url": "https://huggingface.co/docling-project/docling-models/resolve/fc0f2d45e2218ea24bce5045f58a389aed16dc23/model_artifacts/tableformer/fast/tableformer_fast.safetensors",
+      "revision": "fc0f2d45e2218ea24bce5045f58a389aed16dc23"
+    },
+    {
+      "path": "models/docling/docling-project--docling-models/model_artifacts/tableformer/fast/tm_config.json",
+      "sha256": "dca6762508dddfae6d57d6cb4ef822c6000119dff0f3b6489db7413118c2622a",
+      "bytes": 7060,
+      "url": "https://huggingface.co/docling-project/docling-models/resolve/fc0f2d45e2218ea24bce5045f58a389aed16dc23/model_artifacts/tableformer/fast/tm_config.json",
+      "revision": "fc0f2d45e2218ea24bce5045f58a389aed16dc23"
+    },
+    {
+      "path": "models/docling/docling-project--docling-models/README.md",
+      "sha256": "d17f233378eff1240b623b36da76ee8b40afcca05d505949713bf03f7e00822a",
+      "bytes": 3413,
+      "url": "https://huggingface.co/docling-project/docling-models/resolve/fc0f2d45e2218ea24bce5045f58a389aed16dc23/README.md",
+      "revision": "fc0f2d45e2218ea24bce5045f58a389aed16dc23"
+    },
+    {
+      "path": "tools/vendor/tesseract/tesseract.exe",
+      "sha256": "c66f0f12ed76f6aa455dac97684bbc86756d6a732380bee09122454cfda3f420",
+      "bytes": 1867784
+    },
+    {
+      "path": "tools/vendor/tesseract/tessdata/eng.traineddata",
+      "sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2",
+      "bytes": 4113088,
+      "url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/923915d4ced2a7235221788285785a29c4a42d4a/eng.traineddata",
+      "revision": "923915d4ced2a7235221788285785a29c4a42d4a"
+    },
+    {
+      "path": "tools/vendor/tesseract/libarchive-13.dll",
+      "sha256": "ddabddfdc98e1e1342ce4a7069fb4004de6c870d7bc9f4e95ef243dd18468e97",
+      "bytes": 972210
+    },
+    {
+      "path": "tools/vendor/tesseract/libb2-1.dll",
+      "sha256": "77bab532b5421d6cdddb96c3ae9a4bde144eb481ccaf243336c9f8c690a50987",
+      "bytes": 34653
+    },
+    {
+      "path": "tools/vendor/tesseract/libbrotlicommon.dll",
+      "sha256": "ca7bc06ead80259971badf2cd0bfc688db9154dad65f139f49a38b4be9976f97",
+      "bytes": 143429
+    },
+    {
+      "path": "tools/vendor/tesseract/libbrotlidec.dll",
+      "sha256": "a142dc6cfa77cb907028aa9426f486f3d8de37855e8db2ae2894147908121881",
+      "bytes": 62461
+    },
+    {
+      "path": "tools/vendor/tesseract/libbz2-1.dll",
+      "sha256": "b79cd3a7102e359ef6324e98966a67939e58ec2b651ae2847cae84a4dfa453f7",
+      "bytes": 100964
+    },
+    {
+      "path": "tools/vendor/tesseract/libcairo-2.dll",
+      "sha256": "c474166543aed18b389b20122ca2741189504994dafd86cd5ed121e95bd82ce4",
+      "bytes": 1247164
+    },
+    {
+      "path": "tools/vendor/tesseract/libcurl-4.dll",
+      "sha256": "3d302f9690e810fdfd950254e2f0663d0ff768737f350c602a4ed3a06e9b6b2b",
+      "bytes": 1226963
+    },
+    {
+      "path": "tools/vendor/tesseract/libdatrie-1.dll",
+      "sha256": "2f784872e6404e57847201fe1e7e591bd5b5be4a319ef38ebcb36014ac7f385d",
+      "bytes": 35033
+    },
+    {
+      "path": "tools/vendor/tesseract/libdeflate.dll",
+      "sha256": "3f3fc3a73bc3623dc93b37bb321c484d3731d93006fd01c0495d15711826eb44",
+      "bytes": 99228
+    },
+    {
+      "path": "tools/vendor/tesseract/libexpat-1.dll",
+      "sha256": "92ae866c6c58dd2d8366aa0e6230ba8d434d5306e8d8c3a08b7e61750fc16153",
+      "bytes": 237603
+    },
+    {
+      "path": "tools/vendor/tesseract/libffi-8.dll",
+      "sha256": "390e4bf8abd037abd0e1dd1f311606715e43f8efe812e5c5b8775acf2cb2f21e",
+      "bytes": 40945
+    },
+    {
+      "path": "tools/vendor/tesseract/libfontconfig-1.dll",
+      "sha256": "661c44249b9b06820554940a984b783b1daae9740a4a2eb265fe77205962486f",
+      "bytes": 502866
+    },
+    {
+      "path": "tools/vendor/tesseract/libfreetype-6.dll",
+      "sha256": "bbb3e6390ee229c867ef31f10e42a49a61a92e434a11d40c6139a2608ebc6194",
+      "bytes": 790651
+    },
+    {
+      "path": "tools/vendor/tesseract/libfribidi-0.dll",
+      "sha256": "84930fd86a3b46b62794a3bbaff21fbbaeaade5ff7cdc70be7f717ad29af87ed",
+      "bytes": 156403
+    },
+    {
+      "path": "tools/vendor/tesseract/libgcc_s_seh-1.dll",
+      "sha256": "172cfdc9d83703ec0a0ca2cee08f6cf2a166b801717ee51a56b3a63b36bc2f83",
+      "bytes": 954773
+    },
+    {
+      "path": "tools/vendor/tesseract/libgif-7.dll",
+      "sha256": "5b3d837ccaab84683dd93fbaddf2d98e1a9f90e0ddb8ea73dc70157adb4d26f1",
+      "bytes": 45777
+    },
+    {
+      "path": "tools/vendor/tesseract/libgio-2.0-0.dll",
+      "sha256": "3dc3d4d477633cc9265b0796f9037a9fa387f4a1e8b7258890987a8c2c21eb0a",
+      "bytes": 1915159
+    },
+    {
+      "path": "tools/vendor/tesseract/libglib-2.0-0.dll",
+      "sha256": "43f2015fccfb10e22ecece61855d9ea21835f833b6533bc53ab77b54f4d66c34",
+      "bytes": 1566649
+    },
+    {
+      "path": "tools/vendor/tesseract/libgmodule-2.0-0.dll",
+      "sha256": "69cf44cda7756a6ec4a926e0cf9fe81721f05d65abfab88ff83004fa508bb0e7",
+      "bytes": 26748
+    },
+    {
+      "path": "tools/vendor/tesseract/libgobject-2.0-0.dll",
+      "sha256": "acf20d5ddd3d2e4b4355576f5cf662c18f42746c50f43eaccc0596592616602a",
+      "bytes": 359475
+    },
+    {
+      "path": "tools/vendor/tesseract/libgraphite2.dll",
+      "sha256": "063a9ad34a5ec87d038b4646660957395224ecf2cf707917256b7d251a7c5f57",
+      "bytes": 167155
+    },
+    {
+      "path": "tools/vendor/tesseract/libharfbuzz-0.dll",
+      "sha256": "54fb644a1143b3b81d494684f299aca9ff4b72134f12a7b1cfb2bd0f8fa9cef7",
+      "bytes": 1541957
+    },
+    {
+      "path": "tools/vendor/tesseract/libiconv-2.dll",
+      "sha256": "7a282a854e01be726c6cccfe46f548c716aa45b3014818468253aaa4efbcd067",
+      "bytes": 1143148
+    },
+    {
+      "path": "tools/vendor/tesseract/libicudt78.dll",
+      "sha256": "47d19b605a28461d44e0d8c062c465e92c9edfb0244f023a8066f7337d317d0e",
+      "bytes": 33120806
+    },
+    {
+      "path": "tools/vendor/tesseract/libicuin78.dll",
+      "sha256": "af3341827897a41ab16667ee0699acdb2b0338c3bf4ecc7f510a324f18755422",
+      "bytes": 3186867
+    },
+    {
+      "path": "tools/vendor/tesseract/libicuuc78.dll",
+      "sha256": "3186171e946552e2a5e371cd0bc68bf37bd6e229a85dbb0d3c40231cf0858b49",
+      "bytes": 1999466
+    },
+    {
+      "path": "tools/vendor/tesseract/libidn2-0.dll",
+      "sha256": "9880b52651a0247640a2531d777380f7c35fac7efa7e3979b265ddcb78db8642",
+      "bytes": 247081
+    },
+    {
+      "path": "tools/vendor/tesseract/libintl-8.dll",
+      "sha256": "0537c3dd2378218508ebe3cc416d72a99ee2d24ae1c5525e23458f32544ef861",
+      "bytes": 298731
+    },
+    {
+      "path": "tools/vendor/tesseract/libjbig-0.dll",
+      "sha256": "275a827ba6839d47cfdbe059db1b1b403a92ff26e2b76a29362915487868bef2",
+      "bytes": 62083
+    },
+    {
+      "path": "tools/vendor/tesseract/libjpeg-8.dll",
+      "sha256": "b564d34adaca83e73af0e2231719dd0198ea6cd074c64b2ba85bfd7182f27db7",
+      "bytes": 967968
+    },
+    {
+      "path": "tools/vendor/tesseract/libleptonica-6.dll",
+      "sha256": "1869b44e3d46fd830620b042477e5d60a950779582f38f60291547efb27792f1",
+      "bytes": 2850600
+    },
+    {
+      "path": "tools/vendor/tesseract/libLerc.dll",
+      "sha256": "6887fb5aeabf382a835a4cb693025e8d48d9c90e82ca4eae5d2d8ffb70c6ca9a",
+      "bytes": 804265
+    },
+    {
+      "path": "tools/vendor/tesseract/liblz4.dll",
+      "sha256": "35f917274bca8f19677ba66f1b3cc3c83568c3249fc43215fc16e76439c8e856",
+      "bytes": 158649
+    },
+    {
+      "path": "tools/vendor/tesseract/liblzma-5.dll",
+      "sha256": "dc9edb9bd83b0371fe68d96cb3e70cd17b7a5aba958326a18f8210cb812432e9",
+      "bytes": 191836
+    },
+    {
+      "path": "tools/vendor/tesseract/libopenjp2-7.dll",
+      "sha256": "123587086cb1a25d2a338fb9b7c1d6bda10bf9062625b4f08c6a92b3d9cafe47",
+      "bytes": 519082
+    },
+    {
+      "path": "tools/vendor/tesseract/libpango-1.0-0.dll",
+      "sha256": "a7722692aa345f88cd0cb0296ad144e14b89a25c9926b5c3bac815331bba2127",
+      "bytes": 437317
+    },
+    {
+      "path": "tools/vendor/tesseract/libpangocairo-1.0-0.dll",
+      "sha256": "f0efa65511bc8f35186e9adf4628fb9ed505b31435a93afe218ae6c348197954",
+      "bytes": 84876
+    },
+    {
+      "path": "tools/vendor/tesseract/libpangoft2-1.0-0.dll",
+      "sha256": "adeeffc8438397998f449f8da1bd3832f4c031215415d7ed21109582dc6908a6",
+      "bytes": 112015
+    },
+    {
+      "path": "tools/vendor/tesseract/libpangowin32-1.0-0.dll",
+      "sha256": "08a8ac72c621158d47eb713139e0ad9021c43bef1af01f1365a41fb7f33272c8",
+      "bytes": 112948
+    },
+    {
+      "path": "tools/vendor/tesseract/libpcre2-8-0.dll",
+      "sha256": "a499fb8a7eff453d6e4f0842576bc5171d40a1505d8f7f13fff6cee51b738a62",
+      "bytes": 717955
+    },
+    {
+      "path": "tools/vendor/tesseract/libpixman-1-0.dll",
+      "sha256": "55ce45825eb8e825c635416171be4736147a6b0b690469f545d8c4ae8e85b4a3",
+      "bytes": 740378
+    },
+    {
+      "path": "tools/vendor/tesseract/libpng16-16.dll",
+      "sha256": "3737838ee8d6b893df7bdabf7439775371a57dce7e17ee6b35586023c64bd9ab",
+      "bytes": 264269
+    },
+    {
+      "path": "tools/vendor/tesseract/libpsl-5.dll",
+      "sha256": "b31fc70eda598a39b65fe2736d815518db0652d641346f75eac40c2a0499b058",
+      "bytes": 105304
+    },
+    {
+      "path": "tools/vendor/tesseract/libsharpyuv-0.dll",
+      "sha256": "ab0c9f61dc69b6bcdff1011e215f8d5fd6e5096aba9be3386ab87f217fbbeffe",
+      "bytes": 53757
+    },
+    {
+      "path": "tools/vendor/tesseract/libssh2-1.dll",
+      "sha256": "ee7fe3e749859334c99e9261689481dd879811122598d22585421f95d29fc7ae",
+      "bytes": 271318
+    },
+    {
+      "path": "tools/vendor/tesseract/libstdc++-6.dll",
+      "sha256": "5fe5d4d8f6636eb6f2dc55be99dc5dc8a6c40db1abdf592e84480d1e6985abd0",
+      "bytes": 26390974
+    },
+    {
+      "path": "tools/vendor/tesseract/libtesseract-5.dll",
+      "sha256": "54d54528b453ce3a5ba79487687f8df43e7b194b9ea97beba74200453fe1fb46",
+      "bytes": 3501048
+    },
+    {
+      "path": "tools/vendor/tesseract/libthai-0.dll",
+      "sha256": "5d741974fdec19e0f6cddbcdb539428af0c7392740a056634714c2884157fdb9",
+      "bytes": 72294
+    },
+    {
+      "path": "tools/vendor/tesseract/libtiff-6.dll",
+      "sha256": "47fe69165bf8e211aaa84224f51f145dc894e330fe7ca167f7c99419e0c8c894",
+      "bytes": 625178
+    },
+    {
+      "path": "tools/vendor/tesseract/libunistring-5.dll",
+      "sha256": "b91e2850d3668d4931056a8f4d35783b8ec3eea3735485108a936a072cd16071",
+      "bytes": 2251328
+    },
+    {
+      "path": "tools/vendor/tesseract/libwebp-7.dll",
+      "sha256": "c6c21a10f8cfe13270832e64640b82709e1d87b956b5f15af435a6c25acd6bbf",
+      "bytes": 749724
+    },
+    {
+      "path": "tools/vendor/tesseract/libwebpmux-3.dll",
+      "sha256": "2c8a2e9d7901ec65330f31f9989c2a07ef0506e903b485fcd8b241a6bab9b88f",
+      "bytes": 82858
+    },
+    {
+      "path": "tools/vendor/tesseract/libwinpthread-1.dll",
+      "sha256": "6a661d5846d80a91394dbb9b2dab87ba3cc705eac80ad45fe73677bff70cd6d2",
+      "bytes": 65955
+    },
+    {
+      "path": "tools/vendor/tesseract/libzstd.dll",
+      "sha256": "b95c223a9548a9ecf51377c962e0bc8f0c51eb0c6f67a296dbc885996f0dd40d",
+      "bytes": 1218273
+    },
+    {
+      "path": "tools/vendor/tesseract/zlib1.dll",
+      "sha256": "93e9243a44c29200eeacaf9658efe2558581770e4b11ca4b500e18e424a6e3b5",
+      "bytes": 128488
+    }
+  ],
+  "total_bytes": 644730764,
+  "tesseract_distribution": {
+    "url": "https://github.com/tesseract-ocr/tesseract/releases/download/5.5.3/tesseract-ocr-w64-setup-5.5.3.20260724.exe",
+    "sha256": "bee9e3434bd94fd65387d9be28cd467a41f61b1275383b55b0f59a1331270ae4",
+    "setup": "Extract locally with 7-Zip; do not execute installer"
+  }
+}

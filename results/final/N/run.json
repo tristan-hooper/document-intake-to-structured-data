@@ -1,0 +1,22 @@
+{
+  "run_id": "20261006T192759Z-N-7f1c36e2",
+  "pipeline": "N",
+  "split": "evaluation",
+  "configuration_fingerprint": "21f8a8eef48cc7f88725ae389875907e8d83786c8a12d69a854af83dbbaa4ebf",
+  "source_manifest_fingerprint": "351422e35e63b57636047c8f3af7427d9eac65a7a7ec8b67e7bf7db2bc9db84b",
+  "target_spec_fingerprint": "ae99899840274997606f6ea8f8879b06e776aae0ba912806e4fbd838902c10f6",
+  "initialization_seconds": [],
+  "command_seconds": 0.26036959999873943,
+  "repetitions": 0,
+  "cold_render": false,
+  "timing_scope": "includes source/model verification, initialization, render/cache, all recognition repetitions and page commits; excludes final export",
+  "cache_hits": 0,
+  "completed_pages": 12,
+  "selected_pages": 12,
+  "acceptance_policy": "all_fields_review_required",
+  "artifact_sha256": {
+    "candidates.csv": "9c9409236bf6381608f07b7ef8f3b0adda872361ce96416e8da241c446a48229",
+    "pages.json": "2e6f3a5306418f4003bc4fdd3b5c2ace2bfbced68fca2aa15e7696ef1d494fb9",
+    "review.csv": "9c9409236bf6381608f07b7ef8f3b0adda872361ce96416e8da241c446a48229"
+  }
+}

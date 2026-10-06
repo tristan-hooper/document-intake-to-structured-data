@@ -1,0 +1,263 @@
+{
+  "pipelines": [
+    {
+      "pipeline": "A",
+      "completed_pages": 12,
+      "selected_pages": 12,
+      "strict_scalar_matches": 14,
+      "scalar_targets": 48,
+      "numeric_matches": 14,
+      "numeric_targets": 46,
+      "unavailable_matches": 0,
+      "unavailable_targets": 2,
+      "candidate_matches": 14,
+      "text_regions_resolved": 12,
+      "median_of_warmed_page_medians_seconds": 4.304177849999633,
+      "sum_warmed_page_medians_seconds": 52.309982700000546,
+      "adapter_initialization_seconds": [
+        0.6825269000000844
+      ],
+      "repeated_workload_seconds_excluding_export": 219.71191380000073,
+      "external_workload_seconds_including_export": 220.60043589999987,
+      "accepted_coverage": 0.0,
+      "incorrect_acceptance_rate": null,
+      "default_pages": 9,
+      "default_reference_chars": 4561,
+      "default_char_edits": 14,
+      "default_CER": 0.0030695023021267264,
+      "default_reference_words": 791,
+      "default_word_edits": 13,
+      "default_WER": 0.01643489254108723,
+      "table_labels_v1_pages": 3,
+      "table_labels_v1_reference_chars": 491,
+      "table_labels_v1_char_edits": 303,
+      "table_labels_v1_CER": 0.6171079429735234,
+      "table_labels_v1_reference_words": 63,
+      "table_labels_v1_word_edits": 72,
+      "table_labels_v1_WER": 1.1428571428571428
+    },
+    {
+      "pipeline": "B",
+      "completed_pages": 12,
+      "selected_pages": 12,
+      "strict_scalar_matches": 31,
+      "scalar_targets": 48,
+      "numeric_matches": 31,
+      "numeric_targets": 46,
+      "unavailable_matches": 0,
+      "unavailable_targets": 2,
+      "candidate_matches": 31,
+      "text_regions_resolved": 7,
+      "median_of_warmed_page_medians_seconds": 9.223537049999777,
+      "sum_warmed_page_medians_seconds": 109.1984771999987,
+      "adapter_initialization_seconds": [
+        1.4995926000001418
+      ],
+      "repeated_workload_seconds_excluding_export": 508.09723980000035,
+      "external_workload_seconds_including_export": 508.8897414000003,
+      "accepted_coverage": 0.0,
+      "incorrect_acceptance_rate": null,
+      "default_pages": 9,
+      "default_reference_chars": 4561,
+      "default_char_edits": 113,
+      "default_CER": 0.024775268581451435,
+      "default_reference_words": 791,
+      "default_word_edits": 47,
+      "default_WER": 0.05941845764854614,
+      "table_labels_v1_pages": 3,
+      "table_labels_v1_reference_chars": 491,
+      "table_labels_v1_char_edits": 158,
+      "table_labels_v1_CER": 0.32179226069246436,
+      "table_labels_v1_reference_words": 63,
+      "table_labels_v1_word_edits": 18,
+      "table_labels_v1_WER": 0.2857142857142857
+    },
+    {
+      "pipeline": "C",
+      "completed_pages": 12,
+      "selected_pages": 12,
+      "strict_scalar_matches": 7,
+      "scalar_targets": 48,
+      "numeric_matches": 7,
+      "numeric_targets": 46,
+      "unavailable_matches": 0,
+      "unavailable_targets": 2,
+      "candidate_matches": 23,
+      "text_regions_resolved": 5,
+      "median_of_warmed_page_medians_seconds": 20.25723620000008,
+      "sum_warmed_page_medians_seconds": 321.4597206999997,
+      "adapter_initialization_seconds": [
+        13.126424299999599
+      ],
+      "repeated_workload_seconds_excluding_export": 1321.7637373000007,
+      "external_workload_seconds_including_export": 1322.4884524000008,
+      "accepted_coverage": 0.0,
+      "incorrect_acceptance_rate": null,
+      "default_pages": 9,
+      "default_reference_chars": 4561,
+      "default_char_edits": 63,
+      "default_CER": 0.01381276035957027,
+      "default_reference_words": 791,
+      "default_word_edits": 38,
+      "default_WER": 0.04804045512010114,
+      "table_labels_v1_pages": 3,
+      "table_labels_v1_reference_chars": 491,
+      "table_labels_v1_char_edits": 158,
+      "table_labels_v1_CER": 0.32179226069246436,
+      "table_labels_v1_reference_words": 63,
+      "table_labels_v1_word_edits": 18,
+      "table_labels_v1_WER": 0.2857142857142857
+    },
+    {
+      "pipeline": "N",
+      "completed_pages": 12,
+      "selected_pages": 12,
+      "strict_scalar_matches": 5,
+      "scalar_targets": 48,
+      "numeric_matches": 3,
+      "numeric_targets": 46,
+      "unavailable_matches": 2,
+      "unavailable_targets": 2,
+      "candidate_matches": 5,
+      "text_regions_resolved": 12,
+      "median_of_warmed_page_medians_seconds": null,
+      "sum_warmed_page_medians_seconds": null,
+      "adapter_initialization_seconds": [],
+      "repeated_workload_seconds_excluding_export": 0.37322580000000016,
+      "external_workload_seconds_including_export": 0.9047222999997757,
+      "accepted_coverage": 0.0,
+      "incorrect_acceptance_rate": null,
+      "default_pages": 9,
+      "default_reference_chars": 4561,
+      "default_char_edits": 2631,
+      "default_CER": 0.5768471826353869,
+      "default_reference_words": 791,
+      "default_word_edits": 494,
+      "default_WER": 0.6245259165613148,
+      "table_labels_v1_pages": 3,
+      "table_labels_v1_reference_chars": 491,
+      "table_labels_v1_char_edits": 119,
+      "table_labels_v1_CER": 0.24236252545824846,
+      "table_labels_v1_reference_words": 63,
+      "table_labels_v1_word_edits": 26,
+      "table_labels_v1_WER": 0.4126984126984127
+    }
+  ],
+  "shared_image_hashes_verified": {
+    "S1-p001": {
+      "A": "686bdfa20294691bcc9b1bb6d59e0f3bae83d502c54ce16ca87290405bae9789",
+      "B": "686bdfa20294691bcc9b1bb6d59e0f3bae83d502c54ce16ca87290405bae9789",
+      "C": "686bdfa20294691bcc9b1bb6d59e0f3bae83d502c54ce16ca87290405bae9789"
+    },
+    "S1-p002": {
+      "A": "8f9aa445d7bf6020a3d854c81e85b87bb505eae261e8ba3b1f063db82746422c",
+      "B": "8f9aa445d7bf6020a3d854c81e85b87bb505eae261e8ba3b1f063db82746422c",
+      "C": "8f9aa445d7bf6020a3d854c81e85b87bb505eae261e8ba3b1f063db82746422c"
+    },
+    "S2-p001": {
+      "A": "481adc2c345e7b4ee269dc473a112d4f1124ced5a511e2f768fe5acfac584216",
+      "B": "481adc2c345e7b4ee269dc473a112d4f1124ced5a511e2f768fe5acfac584216",
+      "C": "481adc2c345e7b4ee269dc473a112d4f1124ced5a511e2f768fe5acfac584216"
+    },
+    "S2-p004": {
+      "A": "70b9dc25d21910b6febd2e693a5480685a1b12ef36ca7b378415d21196dc0f17",
+      "B": "70b9dc25d21910b6febd2e693a5480685a1b12ef36ca7b378415d21196dc0f17",
+      "C": "70b9dc25d21910b6febd2e693a5480685a1b12ef36ca7b378415d21196dc0f17"
+    },
+    "S2-p005": {
+      "A": "3f35b3acb5bcc0675ecd6770f99fa95567831c5862a0dc4719b3e5b47e0aa617",
+      "B": "3f35b3acb5bcc0675ecd6770f99fa95567831c5862a0dc4719b3e5b47e0aa617",
+      "C": "3f35b3acb5bcc0675ecd6770f99fa95567831c5862a0dc4719b3e5b47e0aa617"
+    },
+    "S3-p005": {
+      "A": "b300f5c93bf6f4ac79321f3f39881ab979415fe540d56ad208e1a36059d0a942",
+      "B": "b300f5c93bf6f4ac79321f3f39881ab979415fe540d56ad208e1a36059d0a942",
+      "C": "b300f5c93bf6f4ac79321f3f39881ab979415fe540d56ad208e1a36059d0a942"
+    },
+    "S3-p008": {
+      "A": "debc0d81ec02d0a88ee35b570928690473707c19ce6e5b29289f115714622828",
+      "B": "debc0d81ec02d0a88ee35b570928690473707c19ce6e5b29289f115714622828",
+      "C": "debc0d81ec02d0a88ee35b570928690473707c19ce6e5b29289f115714622828"
+    },
+    "S3-p010": {
+      "A": "21fcbbc0f0d2c7eac598d6000d1ebeb7029f40c6d0e4e61db30e4495df1afcb3",
+      "B": "21fcbbc0f0d2c7eac598d6000d1ebeb7029f40c6d0e4e61db30e4495df1afcb3",
+      "C": "21fcbbc0f0d2c7eac598d6000d1ebeb7029f40c6d0e4e61db30e4495df1afcb3"
+    },
+    "S3-p012": {
+      "A": "b2f28ab6df98e4d0662740b6a8e47d9ed8a81b252a18fa0723f5cd03f13e1793",
+      "B": "b2f28ab6df98e4d0662740b6a8e47d9ed8a81b252a18fa0723f5cd03f13e1793",
+      "C": "b2f28ab6df98e4d0662740b6a8e47d9ed8a81b252a18fa0723f5cd03f13e1793"
+    },
+    "S4-p004": {
+      "A": "ef1000fe66728dc6001bafe5388d315defcf68c735b05dbee1c5396b4e485aea",
+      "B": "ef1000fe66728dc6001bafe5388d315defcf68c735b05dbee1c5396b4e485aea",
+      "C": "ef1000fe66728dc6001bafe5388d315defcf68c735b05dbee1c5396b4e485aea"
+    },
+    "S4-p010": {
+      "A": "71740c112463edc26239e823423946438be3b66dd204803807d16d86f69553b1",
+      "B": "71740c112463edc26239e823423946438be3b66dd204803807d16d86f69553b1",
+      "C": "71740c112463edc26239e823423946438be3b66dd204803807d16d86f69553b1"
+    },
+    "S4-p011": {
+      "A": "813a67bf31ec34855ae5ae976673d80341d672f0c9b770442ab995bc798ad64e",
+      "B": "813a67bf31ec34855ae5ae976673d80341d672f0c9b770442ab995bc798ad64e",
+      "C": "813a67bf31ec34855ae5ae976673d80341d672f0c9b770442ab995bc798ad64e"
+    }
+  },
+  "by_field_task_layout": {
+    "A": {
+      "table_scalar_targets": {
+        "pages": 10,
+        "strict_matches": 7,
+        "targets": 40
+      },
+      "narrative_scalar_targets": {
+        "pages": 2,
+        "strict_matches": 7,
+        "targets": 8
+      }
+    },
+    "B": {
+      "table_scalar_targets": {
+        "pages": 10,
+        "strict_matches": 25,
+        "targets": 40
+      },
+      "narrative_scalar_targets": {
+        "pages": 2,
+        "strict_matches": 6,
+        "targets": 8
+      }
+    },
+    "C": {
+      "table_scalar_targets": {
+        "pages": 10,
+        "strict_matches": 7,
+        "targets": 40
+      },
+      "narrative_scalar_targets": {
+        "pages": 2,
+        "strict_matches": 0,
+        "targets": 8
+      }
+    },
+    "N": {
+      "table_scalar_targets": {
+        "pages": 10,
+        "strict_matches": 3,
+        "targets": 40
+      },
+      "narrative_scalar_targets": {
+        "pages": 2,
+        "strict_matches": 2,
+        "targets": 8
+      }
+    }
+  },
+  "layout_note": "Field-task groups derive from frozen annotation exceptions (No table) versus the default first-table selection rule. They are descriptive tasks, not independently randomized page-layout conditions.",
+  "field_exactness": "Normalized decimal-string equality preserving scale/sign; unavailable symbols scored by explicit marker class.",
+  "policy_note": "Ordinary-passage and table-label CER/WER remain separate. Source/visual-tag breakdowns are in each evaluation.json.",
+  "timing_note": "Each OCR pipeline renders all selected pages into a new cache, performs one initial extraction and three warmed repeats per page. CLI workload timing includes repetitions; warmed medians isolate processing. External wall timing also includes final export.",
+  "recommendation_status": "Requires case-specific decision; N is not an OCR candidate."
+}

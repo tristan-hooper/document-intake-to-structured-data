@@ -1,0 +1,145 @@
+{
+  "started_at_utc": "2026-10-06T19:07:20.777501+00:00",
+  "status": "completed",
+  "pipelines": {
+    "A": {
+      "status": "completed",
+      "command": [
+        "scan_intake.cli",
+        "--project",
+        "C:\\Users\\trist\\Documents\\ChatGPT\\Resume Projects\\document-intake-to-structured-data",
+        "--freeze-file",
+        "C:\\Users\\trist\\Documents\\ChatGPT\\Resume Projects\\document-intake-to-structured-data\\data\\evaluation-freeze-cell-aware.json",
+        "extract",
+        "--pipeline",
+        "A",
+        "--split",
+        "evaluation",
+        "--fresh",
+        "--repetitions",
+        "3",
+        "--cold-render"
+      ],
+      "started_at_utc": "2026-10-06T19:07:20.779501+00:00",
+      "process_pid": 13368,
+      "exit_code": 0,
+      "external_wall_seconds": 168.1296285999997,
+      "run_id": "20261006T190721Z-A-325b0873",
+      "artifact_sha256": {
+        "run.json": "21346ba827af7dd67249d2b4c5534d4a226b50eb538780c02462c612c7522c5f",
+        "pages.json": "ce739769ab6e991ed571625d7b77fbf5a315ce0cff1dd86f5ff1e7206e08c28d",
+        "candidates.csv": "52eeaaaceabe59bfbc4d0fb95f7be4729e546635c8bad88fc6f246979af4046d",
+        "review.csv": "52eeaaaceabe59bfbc4d0fb95f7be4729e546635c8bad88fc6f246979af4046d",
+        "evaluation.json": "6e3f047263bfe9e12a3abbc62d01907710bc77db59b3d6b6d8d782388fbdc056",
+        "scoring.log": "18d0a994a3cfe3ef62ee5a6fdefe2be9d1ffd627c8e940f8720ef98078d5f900"
+      },
+      "scoring_exit_code": 0
+    },
+    "B": {
+      "status": "completed",
+      "command": [
+        "scan_intake.cli",
+        "--project",
+        "C:\\Users\\trist\\Documents\\ChatGPT\\Resume Projects\\document-intake-to-structured-data",
+        "--freeze-file",
+        "C:\\Users\\trist\\Documents\\ChatGPT\\Resume Projects\\document-intake-to-structured-data\\data\\evaluation-freeze-cell-aware.json",
+        "extract",
+        "--pipeline",
+        "B",
+        "--split",
+        "evaluation",
+        "--fresh",
+        "--repetitions",
+        "3",
+        "--cold-render"
+      ],
+      "started_at_utc": "2026-10-06T19:10:09.854246+00:00",
+      "process_pid": 17832,
+      "exit_code": 0,
+      "external_wall_seconds": 274.6343577000007,
+      "run_id": "20261006T191010Z-B-0cb95709",
+      "artifact_sha256": {
+        "run.json": "73532f2051aa5d60dae43569f012ca8964e03d7e91c598aeaa9131d44895494f",
+        "pages.json": "fb9f9fed687d4dfb833f958187b76e8f6d11a11dd8d6649f8edb7308b1201f9c",
+        "candidates.csv": "61908fdc4addb6448665be5432a38b892fde6305b0bbc33ede9ddaad6bcb809e",
+        "review.csv": "61908fdc4addb6448665be5432a38b892fde6305b0bbc33ede9ddaad6bcb809e",
+        "evaluation.json": "3334286b8427d97fffcc11ad0f7e3453875e21f59a5fdd3d5dc93dc5e99ba841",
+        "scoring.log": "83aababa6af4e3e7a8185bea4cf180e369498fbb69707699e479fe4ae5242c88"
+      },
+      "scoring_exit_code": 0
+    },
+    "C": {
+      "status": "completed",
+      "command": [
+        "scan_intake.cli",
+        "--project",
+        "C:\\Users\\trist\\Documents\\ChatGPT\\Resume Projects\\document-intake-to-structured-data",
+        "--freeze-file",
+        "C:\\Users\\trist\\Documents\\ChatGPT\\Resume Projects\\document-intake-to-structured-data\\data\\evaluation-freeze-cell-aware.json",
+        "extract",
+        "--pipeline",
+        "C",
+        "--split",
+        "evaluation",
+        "--fresh",
+        "--repetitions",
+        "3",
+        "--cold-render"
+      ],
+      "started_at_utc": "2026-10-06T19:14:45.386971+00:00",
+      "process_pid": 4224,
+      "exit_code": 0,
+      "external_wall_seconds": 793.0633464999992,
+      "run_id": "20261006T191446Z-C-6f403c1a",
+      "artifact_sha256": {
+        "run.json": "aa7a2bd4339afd8615c8f38a31c74daff90593bbe816982a9dd413de2889069a",
+        "pages.json": "d849abc4eb8396260cb501c4704b4e596fee272eea54ff0500d92c0151345d54",
+        "candidates.csv": "2234cf35a11453b98c7feb3bf30cac6b47cdcf31230a542154f675680ed8f575",
+        "review.csv": "2234cf35a11453b98c7feb3bf30cac6b47cdcf31230a542154f675680ed8f575",
+        "evaluation.json": "48130d8d2b2fd1cd37ca8d284c7905cd8fafdb38c304a1b80a51630afcc7da85",
+        "scoring.log": "fa31fec02b5cb4f0045783bdc1fc475ce322f231be1b1ddd57b9e698bac1b9ad"
+      },
+      "scoring_exit_code": 0
+    },
+    "N": {
+      "status": "completed",
+      "command": [
+        "scan_intake.cli",
+        "--project",
+        "C:\\Users\\trist\\Documents\\ChatGPT\\Resume Projects\\document-intake-to-structured-data",
+        "--freeze-file",
+        "C:\\Users\\trist\\Documents\\ChatGPT\\Resume Projects\\document-intake-to-structured-data\\data\\evaluation-freeze-cell-aware.json",
+        "extract",
+        "--pipeline",
+        "N",
+        "--split",
+        "evaluation",
+        "--fresh"
+      ],
+      "started_at_utc": "2026-10-06T19:27:59.352246+00:00",
+      "process_pid": 19112,
+      "exit_code": 0,
+      "external_wall_seconds": 0.6577428999989934,
+      "run_id": "20261006T192759Z-N-7f1c36e2",
+      "artifact_sha256": {
+        "run.json": "6767d578fe2a4e4fbe031862e0651192e2cc8bfd4acd68a602ac0e798183cd71",
+        "pages.json": "2e6f3a5306418f4003bc4fdd3b5c2ace2bfbced68fca2aa15e7696ef1d494fb9",
+        "candidates.csv": "9c9409236bf6381608f07b7ef8f3b0adda872361ce96416e8da241c446a48229",
+        "review.csv": "9c9409236bf6381608f07b7ef8f3b0adda872361ce96416e8da241c446a48229",
+        "evaluation.json": "1dd6915cfe715fe9df97424235732210dfce9cfc16b4989fb667c092b27c2b32",
+        "scoring.log": "d426e18c714e4b21ac0fcb16ce45cfa8fb4c6b14ce210524585b8021daf5ff6c"
+      },
+      "scoring_exit_code": 0
+    }
+  },
+  "freeze_file": "data/evaluation-freeze-cell-aware.json",
+  "freeze_sha256": "0d231e740de7e5e3b6b581f35a81ef64798c9733581e2e78188870674bbaa685",
+  "timing_protocol": "Each OCR pipeline renders all selected pages into a new cache, performs one initial extraction and three warmed repeats per page. CLI workload timing includes repetitions; warmed medians isolate processing. External wall timing also includes final export.",
+  "order": [
+    "A",
+    "B",
+    "C",
+    "N"
+  ],
+  "finished_at_utc": "2026-10-06T19:28:00.614061+00:00"
+}

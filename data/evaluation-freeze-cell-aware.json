@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "frozen_at_utc": "2026-10-06T19:07:11.367484+00:00",
+  "scoring_rule": "Table cells are atomic; target assignment uses the cell center. Crossing line/block bounds remain unresolved.",
+  "evaluation_started": false,
+  "checks": {
+    "sources": {
+      "exit_code": 0,
+      "log": "results/verification/cell-aware/sources.txt",
+      "sha256": "0689eddfaa6d1f1fd1b756c47c53fc64666f5bd6c4baf887999453ec3843d8c9"
+    },
+    "annotations": {
+      "exit_code": 0,
+      "log": "results/verification/cell-aware/annotations.txt",
+      "sha256": "b196de576a222e65b69a98edad66744b67f767000ef3e08f1c5829a38e26b00b"
+    },
+    "tests": {
+      "exit_code": 0,
+      "log": "results/verification/cell-aware/tests.txt",
+      "sha256": "7e412cc0238891dcbe97c2086c99ada1673ef2e089d497c317171a6a824dd35d"
+    }
+  },
+  "environment": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26100-SP0",
+    "processor_identifier": "AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD",
+    "logical_cpus": 16,
+    "physical_cpus": 8,
+    "physical_memory_bytes": 34281717760,
+    "device": "CPU",
+    "adapter_threads": 4,
+    "execution_note": "Sequential local runs; other desktop activity is uncontrolled. No GPU inference."
+  },
+  "artifact_sha256": {
+    "pyproject.toml": "8a8bb7b3f23ada0ce985dbb4bd4c8eec9eef116eb3d0aead6309394c99b52036",
+    "requirements-benchmark.lock": "7d7c5cdec96c966f6522267f40aad30afa3a9e339b7a91a8187b6d9bc0446e20",
+    "config/benchmark.json": "ff13f92c40fd60bd13a4d43fb656d881ce5813395acc40de63f0b79336a138ce",
+    "data/manifest.json": "0ed87c796a876c917abac91adaf818fa6c7b9b4b8d633c5cf3063cb36ca4c368",
+    "data/model-manifest.json": "1ec28849cdae7f269a7d7d977a44b908386f001b57b6b693c7c265009ad82654",
+    "data/annotations/targets.json": "d0a93642d017664cd24089cb43423a894a74f5715a552c7c35e1ffd52b95d398",
+    "data/annotations/references.json": "eaadf4e9bf7c870cdaf01534eb7bddf23052b83bae6a6b7aff627f0d4169d9f4",
+    "data/annotations/README.md": "f82a10745de4195afff4c19653f7e0adde71a953016dc97d9aec3f8d05b270b1",
+    "src/scan_intake/__init__.py": "5b187b91dabfa53450f04d4e1424c33b7d3d4732ee8ab0ec7dd589d79e3d889f",
+    "src/scan_intake/adapters.py": "39b91dc1fcf5268536db8053144ad49c7aaaca602ac4ee26de739ce16fc44671",
+    "src/scan_intake/cli.py": "4838e6308795b4120779c7571c0ebdf472cc461621555b90d5a41a77f2d33876",
+    "src/scan_intake/contracts.py": "bf44f1da658c919eee28fe237ddbbdf88ca88ac272a8cd889bc1bbfee121ab1a",
+    "src/scan_intake/evaluation.py": "1c4989b13cf6d39b54eb45e2d4aa96049acd5480574146aa924874610a14cf2e",
+    "src/scan_intake/extraction.py": "4aa3ff9e37b269eaf60b0d5accb6bc5fdabd0aa9d338f47501fdb9e7245801a0",
+    "src/scan_intake/jobs.py": "579c98b3af8eebbcdc4d7cc54339e5485aeac67d6b70ba697c84e498704aa73d",
+    "src/scan_intake/process.py": "5c3071bfa5a6f01c4f96ba642fa076a8bd84669dc770f03d73c5f47694301ac0",
+    "src/scan_intake/rapid_geometry.py": "072d2d4d58ee5b78787aebab854bbfe4fec7ef599410a54d1b357857fb5c77ff",
+    "src/scan_intake/rendering.py": "c26ead9129bbdd99aec36b88fb749e6569bb179800208d1ab2e30c018678db04",
+    "src/scan_intake/storage.py": "43e1dc6a55c2ac562568b842ad33290e724b53c7d63fac7f9cbc48bfcc7fdd8f",
+    "src/scan_intake/worker.py": "5c94ec9eb11b4224374f36787cc8d6a2663ede7e7053e4202f62e8910efd538d",
+    "tests/test_benchmark_summary.py": "4010708bfc966133c833a684b2bab8979a05cf66c40f7456e4dcc146187de913",
+    "tests/test_contracts_and_numbers.py": "95ed82e522aec2212235d4102bfce51da795b20533a99e954f081b1d7492acd6",
+    "tests/test_persistence_and_process.py": "37cf097d3a7e56a9cda8074670887ef676a09583f768fd1554570656bc2b23d7",
+    "tests/test_rapid_geometry.py": "eeb8b77fb9095cf1d4811f15ff6c49c9105b3d59dfcb7a5d02fb8cab4bab6333",
+    "tools/fetch_sources.py": "22ff921600e33bd86805e363daf9847345bb4aa3efae78047130a9f619759d58",
+    "tools/fetch_models.py": "446d264c247cdefd010997fdcab4ef202be659d0ea22d14cf8f1f4a764b06d24",
+    "tools/run_benchmark.py": "24bdba9850e0173e161c51d57763ee892eb039d39a5b0e8558e48d867528a5a3",
+    "tools/summarize_benchmark.py": "8d73358af397827a37e4ad8d9ce5301d381465a28cdb8ecf7be96fa9ad0f76b6",
+    "tools/finalize_benchmark_integrity.py": "29e7d1e57a96d4f373f4341317bd376002f661a679d4b08e924ad2588f8a039a",
+    "tools/validate_annotations.py": "d8e9a458e4a72feb0f6cfbb34d5ed2ba714d573e2d755c604a2bfd2c3f4f307d",
+    "tools/freeze_evaluation.py": "46e52fb128c0c9bc6e40d9f472e213b5acbed46eb1619a9a92b18539443d0cbf"
+  },
+  "policy": "No evaluation outputs used for configuration, target selection, or rule selection after freeze.",
+  "annotation_limit": "Codex visual transcription, checked twice by the same annotator; no independent human adjudication.",
+  "development_evidence": [
+    "20261006T014317Z-A-8e50ae3c",
+    "20261006T014806Z-B-0fb61c4f",
+    "20261006T014515Z-C-55b0788e"
+  ],
+  "development_note": "Earlier development artifacts may have prior implementation fingerprints. Geometry repair, scoped model verification and cold-render support are covered by current tests; cold rendering/resume additionally checked through CLI."
+}

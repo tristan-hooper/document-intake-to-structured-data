@@ -1,0 +1,734 @@
+{
+  "annotation_version": 1,
+  "status": "visually_verified_configuration_freeze_pending",
+  "coordinate_system": "normalized_top_left_ltrb",
+  "author": "Codex visual transcription from rendered source images",
+  "pages": [
+    {
+      "page_id": "S1-p001",
+      "text": "School enrollment rates continued to rank high for the compulsory attendance ages (7 to 17) and especially high for ages 7 to 13. About 99 percent of persons 7 to 13 were enrolled in school. Similar enrollment rates were reported for white and Negro persons in this age group. The school enrollment rates of children 3 and 4 years old almost doubled over the past 5 years. In",
+      "text_evaluable": true,
+      "verification": "second_visual_pass_same_annotator",
+      "annotation_notes": "Text is the complete right-column passage ending at the page continuation; fewer than 80 words available in this region. Historical racial terminology is transcribed as printed, not endorsed.",
+      "targets": [
+        {
+          "target_id": "S1-p001-f1",
+          "raw_value": "60,357",
+          "normalized_value": "60357",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S1-p001-f2",
+          "raw_value": "54,700",
+          "normalized_value": "54700",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S1-p001-f3",
+          "raw_value": "1,096",
+          "normalized_value": "1096",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S1-p001-f4",
+          "raw_value": "520",
+          "normalized_value": "520",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        }
+      ]
+    },
+    {
+      "page_id": "S1-p002",
+      "text": "1965, 886,000 children 3 and 4 years old, or 11 percent of those in this age group, were enrolled in nursery school or kindergarten. In 1970, this figure had in- creased to 1.5 million or 21 percent of the age group. In 1965 the number of college students was 5.7 million but in 1970 there were 7.4 million college students, an increase of 31 percent. Among those 18 to 24 years old, 4.5 million, or 24 percent of the age group, were enrolled in college in 1965, compared with 5.8 million, or 26 percent of the age group, in 1970.",
+      "text_evaluable": true,
+      "verification": "second_visual_pass_same_annotator",
+      "annotation_notes": "",
+      "targets": [
+        {
+          "target_id": "S1-p002-f1",
+          "raw_value": "60,357",
+          "normalized_value": "60357",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S1-p002-f2",
+          "raw_value": "51,719",
+          "normalized_value": "51719",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S1-p002-f3",
+          "raw_value": "1,096",
+          "normalized_value": "1096",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S1-p002-f4",
+          "raw_value": "893",
+          "normalized_value": "893",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        }
+      ]
+    },
+    {
+      "page_id": "S2-p001",
+      "text": "About 35.5 million, or 20.0 percent, of the 177.4 million persons 1 year old and over who were living in the United States in March 1961 had moved at least once since March 1960. Although this overall mobility rate has reflected to some slight extent some of the postwar changes in business conditions, it has remained relatively stable in the 14 successive annual surveys conducted since 1948. The percentage of reported movers in the total population 1 year old and over has ranged from 18.6 to 21.0, with an average of 19.7, and has not shown any discernible trend.",
+      "text_evaluable": true,
+      "verification": "second_visual_pass_same_annotator",
+      "annotation_notes": "No table: first four quantitative facts in the first body column, including age.",
+      "targets": [
+        {
+          "target_id": "S2-p001-f1",
+          "raw_value": "35.5",
+          "normalized_value": "35.5",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S2-p001-f2",
+          "raw_value": "20.0",
+          "normalized_value": "20.0",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S2-p001-f3",
+          "raw_value": "177.4",
+          "normalized_value": "177.4",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S2-p001-f4",
+          "raw_value": "1",
+          "normalized_value": "1",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        }
+      ]
+    },
+    {
+      "page_id": "S2-p002",
+      "text": "Intracounty movers.--These are the persons who move within counties and who in recent surveys account for approximately 67 percent of all movers. Although a move from San Bernardino to Needles within San Ber- nardino County, California, could scarcely be regarded as a local change of residence which could be made without a change of job, a majority of local moves fall in the intracounty mover category. The category does, however, fail to include local changes of resi-",
+      "text_evaluable": true,
+      "verification": "second_visual_pass_same_annotator",
+      "annotation_notes": "First body column has only three quantitative facts; fourth is the first rate in the second column (years and paragraph enumeration are not measurements). Text stops at a line boundary; retains printed hyphenation.",
+      "targets": [
+        {
+          "target_id": "S2-p002-f1",
+          "raw_value": "67",
+          "normalized_value": "67",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S2-p002-f2",
+          "raw_value": "16",
+          "normalized_value": "16",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S2-p002-f3",
+          "raw_value": "15",
+          "normalized_value": "15",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S2-p002-f4",
+          "raw_value": "22.1",
+          "normalized_value": "22.1",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        }
+      ]
+    },
+    {
+      "page_id": "S2-p004",
+      "text": "Mobility and marriage.--The late \"teens\" and the \"twenties\" are characterized by the exodus of children from the parental home--to the Armed Forces, to find employment outside the parental community, to college, but above all to get married. Among men 18 to 24 years old married and living with their wives, the mobility rate was 63.3 percent, whereas among single men of the same age, the mobility rate was only 19.6 percent. Among women in the same age group, the rate for wives living with their husbands was 55.2 percent.as compared",
+      "text_evaluable": true,
+      "verification": "second_visual_pass_same_annotator",
+      "annotation_notes": "",
+      "targets": [
+        {
+          "target_id": "S2-p004-f1",
+          "raw_value": "15.9",
+          "normalized_value": "15.9",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S2-p004-f2",
+          "raw_value": "17.5",
+          "normalized_value": "17.5",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S2-p004-f3",
+          "raw_value": "19.6",
+          "normalized_value": "19.6",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S2-p004-f4",
+          "raw_value": "34.9",
+          "normalized_value": "34.9",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        }
+      ]
+    },
+    {
+      "page_id": "S2-p005",
+      "text": "Among the women 18 to 64 years old, the differences from expectation on the basis of \"other never married\" (single) women are of the same general character as those for men. The excess of actual movers over the number expected on the basis of the rates for single persons amounted to about 33 percent of all observed movers, the percentage was somewhat greater for intra- county movers, and 20 percent for migrants. For in- tracounty movers 18 to 24 years, the excess amounted to more than 50 percent of the total observed, and for",
+      "text_evaluable": true,
+      "verification": "second_visual_pass_same_annotator",
+      "annotation_notes": "",
+      "targets": [
+        {
+          "target_id": "S2-p005-f1",
+          "raw_value": "46,388",
+          "normalized_value": "46388",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S2-p005-f2",
+          "raw_value": "9,638",
+          "normalized_value": "9638",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S2-p005-f3",
+          "raw_value": "7,134",
+          "normalized_value": "7134",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S2-p005-f4",
+          "raw_value": "2,357",
+          "normalized_value": "2357",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        }
+      ]
+    },
+    {
+      "page_id": "S3-p005",
+      "text": "The total number of deaths returned for the registra- tion area of the United States for the year 1911 was 839,284. The estimated midyear population of this area was 59,275,977, or 63.1 per cent of the total popu- lation of the United States, and the death rate for the year was 14.2 per 1,000. This is the lowest death rate ever recorded for the registration area, as appears from the following statement:",
+      "text_evaluable": true,
+      "verification": "second_visual_pass_same_annotator",
+      "annotation_notes": "First table has two side-by-side year/rate series; year stubs are context, the two rate columns are targets. Text is a complete paragraph shorter than 80 words.",
+      "targets": [
+        {
+          "target_id": "S3-p005-f1",
+          "raw_value": "14.2",
+          "normalized_value": "14.2",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S3-p005-f2",
+          "raw_value": "16.0",
+          "normalized_value": "16.0",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S3-p005-f3",
+          "raw_value": "15.0",
+          "normalized_value": "15.0",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S3-p005-f4",
+          "raw_value": "15.9",
+          "normalized_value": "15.9",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        }
+      ]
+    },
+    {
+      "page_id": "S3-p006",
+      "text": "Of these 23 states, or 22 states if the partial regis- tration in North Carolina be disregarded, Kentucky and Missouri appear in the returns for the first time. The registration states formed less than one-half of the total number of states in the Union. Together with the District of Columbia, which is included in totals for the group of registration states but is else- where treated as a registration city, they comprised (including the North Carolina municipalities referred to) somewhat more than one-half of the total esti- mated midyear population in 1911 (54,385,234, or 57.9 per cent).",
+      "text_evaluable": true,
+      "verification": "second_visual_pass_same_annotator",
+      "annotation_notes": "No numeric data table; state/city lists are labels. First four measurements in the first column; dates and numbered footnotes are context, not measurement targets.",
+      "targets": [
+        {
+          "target_id": "S3-p006-f1",
+          "raw_value": "1,000",
+          "normalized_value": "1000",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S3-p006-f2",
+          "raw_value": "23",
+          "normalized_value": "23",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S3-p006-f3",
+          "raw_value": "22",
+          "normalized_value": "22",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S3-p006-f4",
+          "raw_value": "54,385,234",
+          "normalized_value": "54385234",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        }
+      ]
+    },
+    {
+      "page_id": "S3-p008",
+      "text": "The states included in the registration area for the calendar year 1900 were Connecticut, Indiana, Maine, Massachusetts, Michigan, New Hampshire, New Jer- sey, New York, Rhode Island, and Vermont. The District of Columbia was also included. This group differs from the registration area of the Twelfth Cen- sus (year ending May 31, 1900) by the addition of Indiana. As constituted for the calendar year 1900 the group comprised a population of 19,960,742, or 26.3 per cent of the total for the United States in that year,",
+      "text_evaluable": true,
+      "verification": "second_visual_pass_same_annotator",
+      "annotation_notes": "",
+      "targets": [
+        {
+          "target_id": "S3-p008-f1",
+          "raw_value": "14.9",
+          "normalized_value": "14.9",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S3-p008-f2",
+          "raw_value": "15.6",
+          "normalized_value": "15.6",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S3-p008-f3",
+          "raw_value": "15.4",
+          "normalized_value": "15.4",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S3-p008-f4",
+          "raw_value": "16.2",
+          "normalized_value": "16.2",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        }
+      ]
+    },
+    {
+      "page_id": "S3-p010",
+      "text": "In comparing the rates of these foreign countries and cities it should be borne in mind that the figures, like the rates given for American states and cities, are crude rates only, uncorrected for differences in the composition of the population with respect to sex and age. The population of certain cities is favorably affected by large accessions of persons in early or middle life, which would tend to make the rates of such cities lower than those of cities depend- ent to a greater extent upon natural increase. The proportion of aged persons in the population has",
+      "text_evaluable": true,
+      "verification": "second_visual_pass_same_annotator",
+      "annotation_notes": "",
+      "targets": [
+        {
+          "target_id": "S3-p010-f1",
+          "raw_value": "15.0",
+          "normalized_value": "15.0",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S3-p010-f2",
+          "raw_value": "13.7",
+          "normalized_value": "13.7",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S3-p010-f3",
+          "raw_value": "16.0",
+          "normalized_value": "16.0",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S3-p010-f4",
+          "raw_value": "15.7",
+          "normalized_value": "15.7",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        }
+      ]
+    },
+    {
+      "page_id": "S3-p011",
+      "text": "A “specific death rate” may be technically defined as a death rate based upon a specified or limited group of population. As the age is the most important single factor affecting mortality, specific rates are primarily those of certain age groups. Sex should also be taken into consideration, and the most useful specific rates are those showing the relation of the deaths, by sex, of certain age groups to the correspond- ing population.",
+      "text_evaluable": true,
+      "verification": "second_visual_pass_same_annotator",
+      "annotation_notes": "No table: first four measurements in the first column; page references and calendar dates excluded. Complete definition paragraph is shorter than 80 words.",
+      "targets": [
+        {
+          "target_id": "S3-p011-f1",
+          "raw_value": "5",
+          "normalized_value": "5",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S3-p011-f2",
+          "raw_value": "11",
+          "normalized_value": "11",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S3-p011-f3",
+          "raw_value": "5",
+          "normalized_value": "5",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S3-p011-f4",
+          "raw_value": "75",
+          "normalized_value": "75",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        }
+      ]
+    },
+    {
+      "page_id": "S3-p012",
+      "text": "REGISTRATION STATES California Colorado Connecticut Indiana Kentucky Maine Maryland Massachusetts Michigan Minnesota Missouri Montana New Hampshire New Jersey",
+      "text_evaluable": true,
+      "verification": "second_visual_pass_same_annotator",
+      "annotation_notes": "Table-only text region: contiguous row labels, shorter denominator. Decorative dot leaders and footnote symbols are structure, not row-label text; label-region scoring explicitly removes repeated dot leaders and footnote markers from both sides.",
+      "targets": [
+        {
+          "target_id": "S3-p012-f1",
+          "raw_value": "13.9",
+          "normalized_value": "13.9",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S3-p012-f2",
+          "raw_value": "112.9",
+          "normalized_value": "112.9",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S3-p012-f3",
+          "raw_value": "13.7",
+          "normalized_value": "13.7",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S3-p012-f4",
+          "raw_value": "83.2",
+          "normalized_value": "83.2",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        }
+      ]
+    },
+    {
+      "page_id": "S4-p004",
+      "text": "Estimates of population for the years subsequent to the census are required for the annual reports of the Census Bureau and other Government bureaus. They are used in computing annual mortality rates of cities and states, for fixing the compensation of certain county officials, and in several states the census estimates of population are used as a basis for establishing the number of liquor licenses that may be granted. Many public-service corporations use our estimates as a basis for the expansion of their operations.",
+      "text_evaluable": true,
+      "verification": "second_visual_pass_same_annotator",
+      "annotation_notes": "No table and first column has only one measurement; continue to the first three measurements in the second column. Dates are period context, not numeric measurement targets.",
+      "targets": [
+        {
+          "target_id": "S4-p004-f1",
+          "raw_value": "8,000",
+          "normalized_value": "8000",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S4-p004-f2",
+          "raw_value": "118.5",
+          "normalized_value": "118.5",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S4-p004-f3",
+          "raw_value": "118.5",
+          "normalized_value": "118.5",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S4-p004-f4",
+          "raw_value": "12",
+          "normalized_value": "12",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        }
+      ]
+    },
+    {
+      "page_id": "S4-p006",
+      "text": "In Table 3 (p. 15) is shown, by states and geographic divisions, the land area as of July 1, 1916, the popu- lation April 15, 1910, and June 1, 1900, and the esti- mated population July 1 of each year, 1910 to 1916, inclusive. Table 4 (p. 16) presents, by states and geographic divisions, the number of municipalities with 8,000 or more population April 15, 1910, with their popula- tion at that date and their estimated population July 1 of each year, 1910 to 1916, and the estimated population outside such municipalities.",
+      "text_evaluable": true,
+      "verification": "second_visual_pass_same_annotator",
+      "annotation_notes": "The second data row has a dot leader instead of a group count. Preserve that unavailable marker; do not infer zero from cumulative totals.",
+      "targets": [
+        {
+          "target_id": "S4-p006-f1",
+          "raw_value": "3",
+          "normalized_value": "3",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S4-p006-f2",
+          "raw_value": "3",
+          "normalized_value": "3",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S4-p006-f3",
+          "raw_value": null,
+          "normalized_value": null,
+          "expected_kind": "unavailable",
+          "evaluable": true,
+          "markers": [
+            "dot_leader_no_value"
+          ],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S4-p006-f4",
+          "raw_value": "3",
+          "normalized_value": "3",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        }
+      ]
+    },
+    {
+      "page_id": "S4-p010",
+      "text": "UNITED STATES Continental United States Outlying possessions Alaska Guam Hawaii Panama Canal Zone Philippine Islands Porto Rico Samoa Persons in military and naval service stationed abroad",
+      "text_evaluable": true,
+      "verification": "second_visual_pass_same_annotator",
+      "annotation_notes": "First data row has dot leaders in both area columns; do not substitute the continent's area or guess a total. Table-only passage uses contiguous row labels with shorter denominator.",
+      "targets": [
+        {
+          "target_id": "S4-p010-f1",
+          "raw_value": null,
+          "normalized_value": null,
+          "expected_kind": "unavailable",
+          "evaluable": true,
+          "markers": [
+            "dot_leader_no_value"
+          ],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S4-p010-f2",
+          "raw_value": null,
+          "normalized_value": null,
+          "expected_kind": "unavailable",
+          "evaluable": true,
+          "markers": [
+            "dot_leader_no_value"
+          ],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S4-p010-f3",
+          "raw_value": "3,026,789",
+          "normalized_value": "3026789",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S4-p010-f4",
+          "raw_value": "2,973,890",
+          "normalized_value": "2973890",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        }
+      ]
+    },
+    {
+      "page_id": "S4-p011",
+      "text": "NEW ENGLAND DIVISION Maine New Hampshire Vermont Massachusetts Rhode Island Connecticut MIDDLE ATLANTIC DIVISION New York New Jersey Pennsylvania",
+      "text_evaluable": true,
+      "verification": "second_visual_pass_same_annotator",
+      "annotation_notes": "Table-only passage uses division headings and contiguous row labels; shorter denominator, table-label normalization.",
+      "targets": [
+        {
+          "target_id": "S4-p011-f1",
+          "raw_value": "2,973,890",
+          "normalized_value": "2973890",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S4-p011-f2",
+          "raw_value": "91,972,266",
+          "normalized_value": "91972266",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S4-p011-f3",
+          "raw_value": "61,976",
+          "normalized_value": "61976",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        },
+        {
+          "target_id": "S4-p011-f4",
+          "raw_value": "6,552,681",
+          "normalized_value": "6552681",
+          "expected_kind": "number",
+          "evaluable": true,
+          "markers": [],
+          "verification": "second_visual_pass_same_annotator"
+        }
+      ]
+    }
+  ]
+}

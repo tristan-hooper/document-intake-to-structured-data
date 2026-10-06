@@ -1,0 +1,34 @@
+{
+  "pages": 12,
+  "completion": {
+    "completed": 12
+  },
+  "reference_chars": 5052,
+  "char_edits": 221,
+  "CER": 0.04374505146476643,
+  "reference_words": 854,
+  "word_edits": 56,
+  "WER": 0.06557377049180328,
+  "text_regions_resolved": 8,
+  "evaluable_targets": 48,
+  "candidate_matches": 23,
+  "strict_field_matches": 19,
+  "strict_field_accuracy": 0.3958333333333333,
+  "numeric_targets": 46,
+  "numeric_candidate_matches": 23,
+  "numeric_strict_matches": 19,
+  "unavailable_targets": 2,
+  "unavailable_matches": 0,
+  "unavailable_review_routed": 2,
+  "accepted_targets": 0,
+  "accepted_coverage": 0.0,
+  "incorrect_acceptances": 0,
+  "incorrect_acceptance_rate": null,
+  "acceptance_note": "All fields require review; absence of accepted targets does not validate automatic acceptance.",
+  "reasons": {
+    "prototype_requires_review": 20,
+    "invalid_number": 9,
+    "unresolved_region_alignment": 13,
+    "missing_field": 6
+  }
+}

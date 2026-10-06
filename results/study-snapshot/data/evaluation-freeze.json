@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "frozen_at_utc": "2026-10-06T01:54:55.974162+00:00",
+  "evaluation_started": false,
+  "checks": {
+    "sources": {
+      "exit_code": 0,
+      "log": "results/verification/sources.txt",
+      "sha256": "0689eddfaa6d1f1fd1b756c47c53fc64666f5bd6c4baf887999453ec3843d8c9"
+    },
+    "annotations": {
+      "exit_code": 0,
+      "log": "results/verification/annotations.txt",
+      "sha256": "3d34a1d5a7b526a065ef2c23387b864eeb6f5b8f8770a558ffc8321c94eadb0e"
+    },
+    "tests": {
+      "exit_code": 0,
+      "log": "results/verification/tests.txt",
+      "sha256": "64ea1682567bbe8b4a35041a09b53b4fef42dc8bda3b9763964bddfbfe759cc9"
+    }
+  },
+  "environment": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26100-SP0",
+    "processor_identifier": "AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD",
+    "logical_cpus": 16,
+    "physical_cpus": 8,
+    "physical_memory_bytes": 34281717760,
+    "device": "CPU",
+    "adapter_threads": 4,
+    "execution_note": "Sequential local runs; other desktop activity is uncontrolled. No GPU inference."
+  },
+  "artifact_sha256": {
+    "pyproject.toml": "52c459f703c7f6857e70e1f021fd0c2641b45df551ef71039ffba2045dc92b46",
+    "requirements-benchmark.lock": "7d7c5cdec96c966f6522267f40aad30afa3a9e339b7a91a8187b6d9bc0446e20",
+    "config/benchmark.json": "9dab0b8265ff241f169f458171d829f2ebfaf9e8ca0e86ae59bc96d655a287b4",
+    "data/manifest.json": "0ed87c796a876c917abac91adaf818fa6c7b9b4b8d633c5cf3063cb36ca4c368",
+    "data/model-manifest.json": "1ec28849cdae7f269a7d7d977a44b908386f001b57b6b693c7c265009ad82654",
+    "data/annotations/targets.json": "d0a93642d017664cd24089cb43423a894a74f5715a552c7c35e1ffd52b95d398",
+    "data/annotations/references.json": "eaadf4e9bf7c870cdaf01534eb7bddf23052b83bae6a6b7aff627f0d4169d9f4",
+    "data/annotations/README.md": "e7c35c96b21ac1869e0cfa31610ea4285f79765a770ed6663db5b6b2ca611f41",
+    "src/scan_intake/__init__.py": "317253168afbf863f21446773fe06f46ca19ff662a7e70e99ad8b6de91f706bc",
+    "src/scan_intake/adapters.py": "5cd6800c272f56c34a32444778bd445b6377055c1ce543c9ab961aa5d6d56eda",
+    "src/scan_intake/cli.py": "1d2baccdb69af06df5abcd7427d962bcd38f27a743038b66d9d1b1935c833189",
+    "src/scan_intake/contracts.py": "73550f7630b93114126312e80d7fd38395cb03c462059368e65417bb12706ada",
+    "src/scan_intake/evaluation.py": "1c4989b13cf6d39b54eb45e2d4aa96049acd5480574146aa924874610a14cf2e",
+    "src/scan_intake/extraction.py": "f0fb3cd5952855e18fc0d914a592b1f8df49043e6bd2a59444ebf579dd13cec7",
+    "src/scan_intake/jobs.py": "0eb25f68c1fe8e9ac4efb63aa78444f5661ff4cb052a2428479a7989a5db7d59",
+    "src/scan_intake/process.py": "936b10317bd28a833489922b683c3d75db327a92dc58d1c969d2ab2afe9f06ff",
+    "src/scan_intake/rapid_geometry.py": "072d2d4d58ee5b78787aebab854bbfe4fec7ef599410a54d1b357857fb5c77ff",
+    "src/scan_intake/rendering.py": "c26ead9129bbdd99aec36b88fb749e6569bb179800208d1ab2e30c018678db04",
+    "src/scan_intake/storage.py": "43e1dc6a55c2ac562568b842ad33290e724b53c7d63fac7f9cbc48bfcc7fdd8f",
+    "src/scan_intake/worker.py": "5c94ec9eb11b4224374f36787cc8d6a2663ede7e7053e4202f62e8910efd538d",
+    "tests/test_contracts_and_numbers.py": "9f12e1ddd9ffb09f2cbf6d1c2444a658eae48925b4d9196804541252352ba0ec",
+    "tests/test_persistence_and_process.py": "0c59fd33e307d9750ab32bc539f0aee9eb42500f82da1640ed71e5c9b2026ddf",
+    "tests/test_rapid_geometry.py": "eeb8b77fb9095cf1d4811f15ff6c49c9105b3d59dfcb7a5d02fb8cab4bab6333",
+    "tools/fetch_sources.py": "22ff921600e33bd86805e363daf9847345bb4aa3efae78047130a9f619759d58",
+    "tools/fetch_models.py": "446d264c247cdefd010997fdcab4ef202be659d0ea22d14cf8f1f4a764b06d24",
+    "tools/run_benchmark.py": "7672fdba3ac5c4e9c7bcff51e7c288b55d284e5ab195b42c438e38c07deed384",
+    "tools/freeze_evaluation.py": "0511a843c685ac970617b1a30f0ef3e15f1730814ef87c9cd27d62e735f0d4ad"
+  },
+  "policy": "No evaluation outputs used for configuration or target selection; changes require a revision record.",
+  "annotation_limit": "Codex visual transcription, checked twice by the same annotator; no independent human adjudication.",
+  "development_evidence": [
+    "20261006T014317Z-A-8e50ae3c",
+    "20261006T014806Z-B-0fb61c4f",
+    "20261006T014515Z-C-55b0788e"
+  ],
+  "development_note": "Earlier development artifacts may have prior implementation fingerprints. Geometry repair, scoped model verification and cold-render support are covered by current tests; cold rendering/resume additionally checked through CLI."
+}

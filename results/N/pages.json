@@ -1,0 +1,2436 @@
+[
+  {
+    "page_id": "S1-p001",
+    "source": {
+      "source_id": "S1",
+      "local_file": "census-1970-school-enrollment.pdf",
+      "title": "School Enrollment in the United States: 1970",
+      "report_number": "P20-215",
+      "publication_date_or_year": "1971-03-05",
+      "observation_period": "1970",
+      "url": "https://www.census.gov/content/dam/Census/library/publications/1970/demo/p20-215.pdf",
+      "sha256": "a3d40e7c4abb85d59a0ac5b7e040415c50c3419eeb2966fe4c3c7a4520eaf318",
+      "bytes": 218863,
+      "total_pdf_pages": 2,
+      "evaluation_pdf_pages": [
+        1,
+        2
+      ],
+      "development_pdf_pages": [],
+      "visual_tags": [
+        "high_contrast",
+        "small_type",
+        "two_columns",
+        "ruled_tables"
+      ],
+      "tags_are_descriptive_not_measured_ocr_quality": true,
+      "reuse_policy": "Local originals; publish URL/checksum manifest rather than automatically redistributing full PDFs. See DATASET.md for source policy.",
+      "page_observations": [
+        {
+          "pdf_page": 1,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 0,
+          "text_render_mode_counts": {},
+          "existing_text_layer": false,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 2,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 0,
+          "text_render_mode_counts": {},
+          "existing_text_layer": false,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        }
+      ]
+    },
+    "pdf_page": 1,
+    "printed_page_label": "",
+    "pipeline": "N",
+    "configuration_fingerprint": "81ec7621db82a1836a9168766dc52481768b548d44a257771224c0b85fefc3f3",
+    "status": "completed",
+    "output": {
+      "native_regions": {
+        "S1-p001-text": "",
+        "S1-p001-f1": "",
+        "S1-p001-f2": "",
+        "S1-p001-f3": "",
+        "S1-p001-f4": ""
+      },
+      "engine": "Existing PDF text",
+      "existing_text_characters": 0,
+      "processing_seconds": 0.0011383000000932952
+    },
+    "result_cache_hit": false,
+    "processed_at": "2026-10-06T02:29:22.669882+00:00",
+    "render": null,
+    "warmed_processing_seconds": [],
+    "regions": {
+      "text": "",
+      "text_alignment": "resolved",
+      "fields": [
+        {
+          "target_id": "S1-p001-f1",
+          "kind": "missing",
+          "value": null,
+          "raw_value": "",
+          "markers": [],
+          "row_label": "Total enrolled, 3 to 34 years old",
+          "column_label": "1970",
+          "period_label": "October 1970",
+          "unit_label": "thousands of persons",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.6143498,
+            0.6061111,
+            0.6681614,
+            0.6205556
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "missing_field",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S1-p001-f2",
+          "kind": "missing",
+          "value": null,
+          "raw_value": "",
+          "markers": [],
+          "row_label": "Total enrolled, 3 to 34 years old",
+          "column_label": "1965",
+          "period_label": "October 1965",
+          "unit_label": "thousands of persons",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.7324365,
+            0.6061111,
+            0.7862481,
+            0.6205556
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "missing_field",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S1-p001-f3",
+          "kind": "missing",
+          "value": null,
+          "raw_value": "",
+          "markers": [],
+          "row_label": "Nursery",
+          "column_label": "1970",
+          "period_label": "October 1970",
+          "unit_label": "thousands of persons",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.6203288,
+            0.6355556,
+            0.6681614,
+            0.65
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "missing_field",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S1-p001-f4",
+          "kind": "missing",
+          "value": null,
+          "raw_value": "",
+          "markers": [],
+          "row_label": "Nursery",
+          "column_label": "1965",
+          "period_label": "October 1965",
+          "unit_label": "thousands of persons",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.754858,
+            0.6355556,
+            0.7862481,
+            0.65
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "missing_field",
+          "human_confirmation": "unconfirmed"
+        }
+      ]
+    }
+  },
+  {
+    "page_id": "S1-p002",
+    "source": {
+      "source_id": "S1",
+      "local_file": "census-1970-school-enrollment.pdf",
+      "title": "School Enrollment in the United States: 1970",
+      "report_number": "P20-215",
+      "publication_date_or_year": "1971-03-05",
+      "observation_period": "1970",
+      "url": "https://www.census.gov/content/dam/Census/library/publications/1970/demo/p20-215.pdf",
+      "sha256": "a3d40e7c4abb85d59a0ac5b7e040415c50c3419eeb2966fe4c3c7a4520eaf318",
+      "bytes": 218863,
+      "total_pdf_pages": 2,
+      "evaluation_pdf_pages": [
+        1,
+        2
+      ],
+      "development_pdf_pages": [],
+      "visual_tags": [
+        "high_contrast",
+        "small_type",
+        "two_columns",
+        "ruled_tables"
+      ],
+      "tags_are_descriptive_not_measured_ocr_quality": true,
+      "reuse_policy": "Local originals; publish URL/checksum manifest rather than automatically redistributing full PDFs. See DATASET.md for source policy.",
+      "page_observations": [
+        {
+          "pdf_page": 1,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 0,
+          "text_render_mode_counts": {},
+          "existing_text_layer": false,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 2,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 0,
+          "text_render_mode_counts": {},
+          "existing_text_layer": false,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        }
+      ]
+    },
+    "pdf_page": 2,
+    "printed_page_label": "2",
+    "pipeline": "N",
+    "configuration_fingerprint": "81ec7621db82a1836a9168766dc52481768b548d44a257771224c0b85fefc3f3",
+    "status": "completed",
+    "output": {
+      "native_regions": {
+        "S1-p002-text": "",
+        "S1-p002-f1": "",
+        "S1-p002-f2": "",
+        "S1-p002-f3": "",
+        "S1-p002-f4": ""
+      },
+      "engine": "Existing PDF text",
+      "existing_text_characters": 0,
+      "processing_seconds": 0.0004227999997965526
+    },
+    "result_cache_hit": false,
+    "processed_at": "2026-10-06T02:29:22.678422+00:00",
+    "render": null,
+    "warmed_processing_seconds": [],
+    "regions": {
+      "text": "",
+      "text_alignment": "resolved",
+      "fields": [
+        {
+          "target_id": "S1-p002-f1",
+          "kind": "missing",
+          "value": null,
+          "raw_value": "",
+          "markers": [],
+          "row_label": "Total enrolled",
+          "column_label": "1970, All races",
+          "period_label": "October 1970",
+          "unit_label": "thousands of persons",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.3539283,
+            0.5505556,
+            0.4118993,
+            0.5644444
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "missing_field",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S1-p002-f2",
+          "kind": "missing",
+          "value": null,
+          "raw_value": "",
+          "markers": [],
+          "row_label": "Total enrolled",
+          "column_label": "1970, White",
+          "period_label": "October 1970",
+          "unit_label": "thousands of persons",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.4347826,
+            0.5505556,
+            0.4942792,
+            0.5644444
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "missing_field",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S1-p002-f3",
+          "kind": "missing",
+          "value": null,
+          "raw_value": "",
+          "markers": [],
+          "row_label": "Nursery",
+          "column_label": "1970, All races",
+          "period_label": "October 1970",
+          "unit_label": "thousands of persons",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.3623188,
+            0.5683333,
+            0.4118993,
+            0.5822222
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "missing_field",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S1-p002-f4",
+          "kind": "missing",
+          "value": null,
+          "raw_value": "",
+          "markers": [],
+          "row_label": "Nursery",
+          "column_label": "1970, White",
+          "period_label": "October 1970",
+          "unit_label": "thousands of persons",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.4599542,
+            0.5683333,
+            0.4942792,
+            0.5822222
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "missing_field",
+          "human_confirmation": "unconfirmed"
+        }
+      ]
+    }
+  },
+  {
+    "page_id": "S2-p001",
+    "source": {
+      "source_id": "S2",
+      "local_file": "census-1962-mobility.pdf",
+      "title": "Mobility of the Population of the United States: March 1960 to March 1961",
+      "report_number": "P20-118",
+      "publication_date_or_year": "1962-08-09",
+      "observation_period": "1960-1961",
+      "url": "https://www.census.gov/content/dam/Census/library/publications/1962/demo/p20-118.pdf",
+      "sha256": "3ee297e255597982d9823f9ff73a43c68aebecb82881dcf866574def7e8dfbc9",
+      "bytes": 267150,
+      "total_pdf_pages": 11,
+      "evaluation_pdf_pages": [
+        1,
+        4,
+        5
+      ],
+      "development_pdf_pages": [
+        2
+      ],
+      "visual_tags": [
+        "uneven_print",
+        "coarse_characters",
+        "small_type",
+        "two_columns",
+        "mixed_text_tables"
+      ],
+      "tags_are_descriptive_not_measured_ocr_quality": true,
+      "reuse_policy": "Local originals; publish URL/checksum manifest rather than automatically redistributing full PDFs. See DATASET.md for source policy.",
+      "page_observations": [
+        {
+          "pdf_page": 1,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 0,
+          "text_render_mode_counts": {},
+          "existing_text_layer": false,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 2,
+          "split": "development",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 0,
+          "text_render_mode_counts": {},
+          "existing_text_layer": false,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 4,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 0,
+          "text_render_mode_counts": {},
+          "existing_text_layer": false,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 5,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 0,
+          "text_render_mode_counts": {},
+          "existing_text_layer": false,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        }
+      ]
+    },
+    "pdf_page": 1,
+    "printed_page_label": "",
+    "pipeline": "N",
+    "configuration_fingerprint": "81ec7621db82a1836a9168766dc52481768b548d44a257771224c0b85fefc3f3",
+    "status": "completed",
+    "output": {
+      "native_regions": {
+        "S2-p001-text": "",
+        "S2-p001-f1": "",
+        "S2-p001-f2": "",
+        "S2-p001-f3": "",
+        "S2-p001-f4": ""
+      },
+      "engine": "Existing PDF text",
+      "existing_text_characters": 0,
+      "processing_seconds": 0.0008041000000957865
+    },
+    "result_cache_hit": false,
+    "processed_at": "2026-10-06T02:29:22.685123+00:00",
+    "render": null,
+    "warmed_processing_seconds": [],
+    "regions": {
+      "text": "",
+      "text_alignment": "resolved",
+      "fields": [
+        {
+          "target_id": "S2-p001-f1",
+          "kind": "missing",
+          "value": null,
+          "raw_value": "",
+          "markers": [],
+          "row_label": "Moved at least once",
+          "column_label": "Persons",
+          "period_label": "March 1960 to March 1961",
+          "unit_label": "million persons",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.1266667,
+            0.3027778,
+            0.1659259,
+            0.3188889
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "missing_field",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S2-p001-f2",
+          "kind": "missing",
+          "value": null,
+          "raw_value": "",
+          "markers": [],
+          "row_label": "Moved at least once",
+          "column_label": "Share",
+          "period_label": "March 1960 to March 1961",
+          "unit_label": "percent",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.2644444,
+            0.3027778,
+            0.3037037,
+            0.3188889
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "missing_field",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S2-p001-f3",
+          "kind": "missing",
+          "value": null,
+          "raw_value": "",
+          "markers": [],
+          "row_label": "Population age 1 and over",
+          "column_label": "Persons",
+          "period_label": "March 1961",
+          "unit_label": "million persons",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.4325926,
+            0.3027778,
+            0.4792593,
+            0.3188889
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "missing_field",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S2-p001-f4",
+          "kind": "missing",
+          "value": null,
+          "raw_value": "",
+          "markers": [],
+          "row_label": "Population minimum age",
+          "column_label": "Age",
+          "period_label": "March 1961",
+          "unit_label": "years",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.1748148,
+            0.3188889,
+            0.1874074,
+            0.3333333
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "missing_field",
+          "human_confirmation": "unconfirmed"
+        }
+      ]
+    }
+  },
+  {
+    "page_id": "S2-p004",
+    "source": {
+      "source_id": "S2",
+      "local_file": "census-1962-mobility.pdf",
+      "title": "Mobility of the Population of the United States: March 1960 to March 1961",
+      "report_number": "P20-118",
+      "publication_date_or_year": "1962-08-09",
+      "observation_period": "1960-1961",
+      "url": "https://www.census.gov/content/dam/Census/library/publications/1962/demo/p20-118.pdf",
+      "sha256": "3ee297e255597982d9823f9ff73a43c68aebecb82881dcf866574def7e8dfbc9",
+      "bytes": 267150,
+      "total_pdf_pages": 11,
+      "evaluation_pdf_pages": [
+        1,
+        4,
+        5
+      ],
+      "development_pdf_pages": [
+        2
+      ],
+      "visual_tags": [
+        "uneven_print",
+        "coarse_characters",
+        "small_type",
+        "two_columns",
+        "mixed_text_tables"
+      ],
+      "tags_are_descriptive_not_measured_ocr_quality": true,
+      "reuse_policy": "Local originals; publish URL/checksum manifest rather than automatically redistributing full PDFs. See DATASET.md for source policy.",
+      "page_observations": [
+        {
+          "pdf_page": 1,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 0,
+          "text_render_mode_counts": {},
+          "existing_text_layer": false,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 2,
+          "split": "development",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 0,
+          "text_render_mode_counts": {},
+          "existing_text_layer": false,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 4,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 0,
+          "text_render_mode_counts": {},
+          "existing_text_layer": false,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 5,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 0,
+          "text_render_mode_counts": {},
+          "existing_text_layer": false,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        }
+      ]
+    },
+    "pdf_page": 4,
+    "printed_page_label": "4",
+    "pipeline": "N",
+    "configuration_fingerprint": "81ec7621db82a1836a9168766dc52481768b548d44a257771224c0b85fefc3f3",
+    "status": "completed",
+    "output": {
+      "native_regions": {
+        "S2-p004-text": "",
+        "S2-p004-f1": "",
+        "S2-p004-f2": "",
+        "S2-p004-f3": "",
+        "S2-p004-f4": ""
+      },
+      "engine": "Existing PDF text",
+      "existing_text_characters": 0,
+      "processing_seconds": 0.0005449000000226079
+    },
+    "result_cache_hit": false,
+    "processed_at": "2026-10-06T02:29:22.692168+00:00",
+    "render": null,
+    "warmed_processing_seconds": [],
+    "regions": {
+      "text": "",
+      "text_alignment": "resolved",
+      "fields": [
+        {
+          "target_id": "S2-p004-f1",
+          "kind": "missing",
+          "value": null,
+          "raw_value": "",
+          "markers": [],
+          "row_label": "14 to 17 years",
+          "column_label": "Mobility rate, Male",
+          "period_label": "March 1961",
+          "unit_label": "percent",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.1737226,
+            0.8711111,
+            0.2065693,
+            0.8844444
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "missing_field",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S2-p004-f2",
+          "kind": "missing",
+          "value": null,
+          "raw_value": "",
+          "markers": [],
+          "row_label": "14 to 17 years",
+          "column_label": "Mobility rate, Female",
+          "period_label": "March 1961",
+          "unit_label": "percent",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.2248175,
+            0.8711111,
+            0.2569343,
+            0.8844444
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "missing_field",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S2-p004-f3",
+          "kind": "missing",
+          "value": null,
+          "raw_value": "",
+          "markers": [],
+          "row_label": "18 and 19 years",
+          "column_label": "Mobility rate, Male",
+          "period_label": "March 1961",
+          "unit_label": "percent",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.1737226,
+            0.8822222,
+            0.2065693,
+            0.8944444
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "missing_field",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S2-p004-f4",
+          "kind": "missing",
+          "value": null,
+          "raw_value": "",
+          "markers": [],
+          "row_label": "18 and 19 years",
+          "column_label": "Mobility rate, Female",
+          "period_label": "March 1961",
+          "unit_label": "percent",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.2248175,
+            0.8822222,
+            0.2569343,
+            0.8944444
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "missing_field",
+          "human_confirmation": "unconfirmed"
+        }
+      ]
+    }
+  },
+  {
+    "page_id": "S2-p005",
+    "source": {
+      "source_id": "S2",
+      "local_file": "census-1962-mobility.pdf",
+      "title": "Mobility of the Population of the United States: March 1960 to March 1961",
+      "report_number": "P20-118",
+      "publication_date_or_year": "1962-08-09",
+      "observation_period": "1960-1961",
+      "url": "https://www.census.gov/content/dam/Census/library/publications/1962/demo/p20-118.pdf",
+      "sha256": "3ee297e255597982d9823f9ff73a43c68aebecb82881dcf866574def7e8dfbc9",
+      "bytes": 267150,
+      "total_pdf_pages": 11,
+      "evaluation_pdf_pages": [
+        1,
+        4,
+        5
+      ],
+      "development_pdf_pages": [
+        2
+      ],
+      "visual_tags": [
+        "uneven_print",
+        "coarse_characters",
+        "small_type",
+        "two_columns",
+        "mixed_text_tables"
+      ],
+      "tags_are_descriptive_not_measured_ocr_quality": true,
+      "reuse_policy": "Local originals; publish URL/checksum manifest rather than automatically redistributing full PDFs. See DATASET.md for source policy.",
+      "page_observations": [
+        {
+          "pdf_page": 1,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 0,
+          "text_render_mode_counts": {},
+          "existing_text_layer": false,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 2,
+          "split": "development",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 0,
+          "text_render_mode_counts": {},
+          "existing_text_layer": false,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 4,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 0,
+          "text_render_mode_counts": {},
+          "existing_text_layer": false,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 5,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 0,
+          "text_render_mode_counts": {},
+          "existing_text_layer": false,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        }
+      ]
+    },
+    "pdf_page": 5,
+    "printed_page_label": "5",
+    "pipeline": "N",
+    "configuration_fingerprint": "81ec7621db82a1836a9168766dc52481768b548d44a257771224c0b85fefc3f3",
+    "status": "completed",
+    "output": {
+      "native_regions": {
+        "S2-p005-text": "",
+        "S2-p005-f1": "",
+        "S2-p005-f2": "",
+        "S2-p005-f3": "",
+        "S2-p005-f4": ""
+      },
+      "engine": "Existing PDF text",
+      "existing_text_characters": 0,
+      "processing_seconds": 0.0006453000005421927
+    },
+    "result_cache_hit": false,
+    "processed_at": "2026-10-06T02:29:22.699739+00:00",
+    "render": null,
+    "warmed_processing_seconds": [],
+    "regions": {
+      "text": "",
+      "text_alignment": "resolved",
+      "fields": [
+        {
+          "target_id": "S2-p005-f1",
+          "kind": "missing",
+          "value": null,
+          "raw_value": "",
+          "markers": [],
+          "row_label": "Observed, Total 18 to 64 years",
+          "column_label": "Total population",
+          "period_label": "March 1961",
+          "unit_label": "thousands of persons",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.2509117,
+            0.1911111,
+            0.2983224,
+            0.205
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "missing_field",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S2-p005-f2",
+          "kind": "missing",
+          "value": null,
+          "raw_value": "",
+          "markers": [],
+          "row_label": "Observed, Total 18 to 64 years",
+          "column_label": "Movers, Total",
+          "period_label": "March 1961",
+          "unit_label": "thousands of persons",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.321663,
+            0.1911111,
+            0.3632385,
+            0.205
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "missing_field",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S2-p005-f3",
+          "kind": "missing",
+          "value": null,
+          "raw_value": "",
+          "markers": [],
+          "row_label": "Observed, 18 to 24 years",
+          "column_label": "Total population",
+          "period_label": "March 1961",
+          "unit_label": "thousands of persons",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.2552881,
+            0.2055556,
+            0.2983224,
+            0.2183333
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "missing_field",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S2-p005-f4",
+          "kind": "missing",
+          "value": null,
+          "raw_value": "",
+          "markers": [],
+          "row_label": "Observed, 18 to 24 years",
+          "column_label": "Movers, Total",
+          "period_label": "March 1961",
+          "unit_label": "thousands of persons",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.321663,
+            0.2055556,
+            0.3632385,
+            0.2183333
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "missing_field",
+          "human_confirmation": "unconfirmed"
+        }
+      ]
+    }
+  },
+  {
+    "page_id": "S3-p005",
+    "source": {
+      "source_id": "S3",
+      "local_file": "census-1910-mortality.pdf",
+      "title": "Mortality Statistics: 1911",
+      "report_number": "Bulletin 112",
+      "publication_date_or_year": "1913",
+      "observation_period": "1911",
+      "url": "https://www2.census.gov/library/publications/decennial/1910/bulletins/demographics/112-mortality-statistics.pdf",
+      "sha256": "2927c0a5bbfae5614d1f830313f74ff2978b6e59cd3b0d8bb189b71e4ddb8259",
+      "bytes": 14401034,
+      "total_pdf_pages": 140,
+      "evaluation_pdf_pages": [
+        5,
+        8,
+        10,
+        12
+      ],
+      "development_pdf_pages": [
+        6,
+        11
+      ],
+      "visual_tags": [
+        "speckle",
+        "variable_print_weight",
+        "small_type",
+        "two_columns",
+        "dense_tables"
+      ],
+      "tags_are_descriptive_not_measured_ocr_quality": true,
+      "reuse_policy": "Local originals; publish URL/checksum manifest rather than automatically redistributing full PDFs. See DATASET.md for source policy.",
+      "page_observations": [
+        {
+          "pdf_page": 5,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 5539,
+          "text_render_mode_counts": {
+            "3": 880
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 6,
+          "split": "development",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 5963,
+          "text_render_mode_counts": {
+            "3": 864
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 8,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 7335,
+          "text_render_mode_counts": {
+            "3": 1276
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 10,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 7134,
+          "text_render_mode_counts": {
+            "3": 1230
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 11,
+          "split": "development",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 5189,
+          "text_render_mode_counts": {
+            "3": 878
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 12,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 10600,
+          "text_render_mode_counts": {
+            "3": 2269
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        }
+      ]
+    },
+    "pdf_page": 5,
+    "printed_page_label": "7",
+    "pipeline": "N",
+    "configuration_fingerprint": "81ec7621db82a1836a9168766dc52481768b548d44a257771224c0b85fefc3f3",
+    "status": "completed",
+    "output": {
+      "native_regions": {
+        "S3-p005-text": "The tot11l number of deaths :returned for the registra\u0002tion area of the United States for the year 1911 was \r\n839,284. The estimated midyear population of this \r\narea was 59,275,977, or 63.1 per cent of the total popu\u0002l11tion of the United States, and the death rate foi· the \r\nyear was 14.2 per 1,000. This is the lowest death rate \r\never recorded for the registration area, 11s appe11rs from \r\nthe following statement: ",
+        "S3-p005-f1": "14.2 \r\n10 ",
+        "S3-p005-f2": "16.0 \r\nlli9 ",
+        "S3-p005-f3": "14.2 \r\n15.0 ",
+        "S3-p005-f4": "16.0 \r\nlli.9 \r\n10"
+      },
+      "engine": "Existing PDF text",
+      "existing_text_characters": 5539,
+      "processing_seconds": 0.039121899999372545
+    },
+    "result_cache_hit": false,
+    "processed_at": "2026-10-06T02:29:22.707249+00:00",
+    "render": null,
+    "warmed_processing_seconds": [],
+    "regions": {
+      "text": "The tot11l number of deaths :returned for the registra\u0002tion area of the United States for the year 1911 was \r\n839,284. The estimated midyear population of this \r\narea was 59,275,977, or 63.1 per cent of the total popu\u0002l11tion of the United States, and the death rate foi· the \r\nyear was 14.2 per 1,000. This is the lowest death rate \r\never recorded for the registration area, 11s appe11rs from \r\nthe following statement: ",
+      "text_alignment": "resolved",
+      "fields": [
+        {
+          "target_id": "S3-p005-f1",
+          "kind": "invalid",
+          "value": null,
+          "raw_value": "14.2 \r\n10 ",
+          "markers": [],
+          "row_label": "1911",
+          "column_label": "Left series, Death rate",
+          "period_label": "1911",
+          "unit_label": "deaths per 1,000 population",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.2473118,
+            0.4277778,
+            0.2731183,
+            0.4411111
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "invalid_number",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S3-p005-f2",
+          "kind": "invalid",
+          "value": null,
+          "raw_value": "16.0 \r\nlli9 ",
+          "markers": [],
+          "row_label": "1903",
+          "column_label": "Right series, Death rate",
+          "period_label": "1903",
+          "unit_label": "deaths per 1,000 population",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.4494624,
+            0.4277778,
+            0.474552,
+            0.4411111
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "invalid_number",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S3-p005-f3",
+          "kind": "invalid",
+          "value": null,
+          "raw_value": "14.2 \r\n15.0 ",
+          "markers": [],
+          "row_label": "1910",
+          "column_label": "Left series, Death rate",
+          "period_label": "1910",
+          "unit_label": "deaths per 1,000 population",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.2473118,
+            0.4361111,
+            0.2731183,
+            0.4483333
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "invalid_number",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S3-p005-f4",
+          "kind": "invalid",
+          "value": null,
+          "raw_value": "16.0 \r\nlli.9 \r\n10",
+          "markers": [],
+          "row_label": "1902",
+          "column_label": "Right series, Death rate",
+          "period_label": "1902",
+          "unit_label": "deaths per 1,000 population",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.4494624,
+            0.4361111,
+            0.474552,
+            0.4483333
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "invalid_number",
+          "human_confirmation": "unconfirmed"
+        }
+      ]
+    }
+  },
+  {
+    "page_id": "S3-p008",
+    "source": {
+      "source_id": "S3",
+      "local_file": "census-1910-mortality.pdf",
+      "title": "Mortality Statistics: 1911",
+      "report_number": "Bulletin 112",
+      "publication_date_or_year": "1913",
+      "observation_period": "1911",
+      "url": "https://www2.census.gov/library/publications/decennial/1910/bulletins/demographics/112-mortality-statistics.pdf",
+      "sha256": "2927c0a5bbfae5614d1f830313f74ff2978b6e59cd3b0d8bb189b71e4ddb8259",
+      "bytes": 14401034,
+      "total_pdf_pages": 140,
+      "evaluation_pdf_pages": [
+        5,
+        8,
+        10,
+        12
+      ],
+      "development_pdf_pages": [
+        6,
+        11
+      ],
+      "visual_tags": [
+        "speckle",
+        "variable_print_weight",
+        "small_type",
+        "two_columns",
+        "dense_tables"
+      ],
+      "tags_are_descriptive_not_measured_ocr_quality": true,
+      "reuse_policy": "Local originals; publish URL/checksum manifest rather than automatically redistributing full PDFs. See DATASET.md for source policy.",
+      "page_observations": [
+        {
+          "pdf_page": 5,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 5539,
+          "text_render_mode_counts": {
+            "3": 880
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 6,
+          "split": "development",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 5963,
+          "text_render_mode_counts": {
+            "3": 864
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 8,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 7335,
+          "text_render_mode_counts": {
+            "3": 1276
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 10,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 7134,
+          "text_render_mode_counts": {
+            "3": 1230
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 11,
+          "split": "development",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 5189,
+          "text_render_mode_counts": {
+            "3": 878
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 12,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 10600,
+          "text_render_mode_counts": {
+            "3": 2269
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        }
+      ]
+    },
+    "pdf_page": 8,
+    "printed_page_label": "10",
+    "pipeline": "N",
+    "configuration_fingerprint": "81ec7621db82a1836a9168766dc52481768b548d44a257771224c0b85fefc3f3",
+    "status": "completed",
+    "output": {
+      "native_regions": {
+        "S3-p008-text": "The states included in the registration area for the \r\ncalendar yMr 1900 were Connecticut, Indiana, Maine, \r\nMassachusetts, Michigan, Ni:iw Hampsl1ir~, New Jer\u0002sey, New York, Rhode Island, and Vermont. The \r\nDistrict of Columbia was also included. This group \r\ndiffers from the registration area of the Twelfth Cen\u0002sus (year ending May 31, 1900) by the addition of \r\nIndiana. As constituted for the calendar year 1900 \r\nthe group comprised a pppulation of 19 ,960 ,7 42, or 26 .3 \r\nper cent pf the total for the United Sta,tes in that year, \r\nli1911 ltif 24627761262 t ",
+        "S3-p008-f1": "14.~ ",
+        "S3-p008-f2": "15.6 \r\n= ",
+        "S3-p008-f3": "15.4 \r\n143 ",
+        "S3-p008-f4": "16.2 \r\n147 "
+      },
+      "engine": "Existing PDF text",
+      "existing_text_characters": 7335,
+      "processing_seconds": 0.033779399998820736
+    },
+    "result_cache_hit": false,
+    "processed_at": "2026-10-06T02:29:22.753478+00:00",
+    "render": null,
+    "warmed_processing_seconds": [],
+    "regions": {
+      "text": "The states included in the registration area for the \r\ncalendar yMr 1900 were Connecticut, Indiana, Maine, \r\nMassachusetts, Michigan, Ni:iw Hampsl1ir~, New Jer\u0002sey, New York, Rhode Island, and Vermont. The \r\nDistrict of Columbia was also included. This group \r\ndiffers from the registration area of the Twelfth Cen\u0002sus (year ending May 31, 1900) by the addition of \r\nIndiana. As constituted for the calendar year 1900 \r\nthe group comprised a pppulation of 19 ,960 ,7 42, or 26 .3 \r\nper cent pf the total for the United Sta,tes in that year, \r\nli1911 ltif 24627761262 t ",
+      "text_alignment": "resolved",
+      "fields": [
+        {
+          "target_id": "S3-p008-f1",
+          "kind": "invalid",
+          "value": null,
+          "raw_value": "14.~ ",
+          "markers": [],
+          "row_label": "Registration states (1900)",
+          "column_label": "1911",
+          "period_label": "1911",
+          "unit_label": "deaths per 1,000 population",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.2964286,
+            0.3013468,
+            0.3207143,
+            0.3142536
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "invalid_number",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S3-p008-f2",
+          "kind": "invalid",
+          "value": null,
+          "raw_value": "15.6 \r\n= ",
+          "markers": [],
+          "row_label": "Registration states (1900)",
+          "column_label": "1910",
+          "period_label": "1910",
+          "unit_label": "deaths per 1,000 population",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.3307143,
+            0.3013468,
+            0.3564286,
+            0.3142536
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "invalid_number",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S3-p008-f3",
+          "kind": "invalid",
+          "value": null,
+          "raw_value": "15.4 \r\n143 ",
+          "markers": [],
+          "row_label": "Cities of 8,000 or more inhabitants in 1900",
+          "column_label": "1911",
+          "period_label": "1911",
+          "unit_label": "deaths per 1,000 population",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.2964286,
+            0.3232323,
+            0.3207143,
+            0.3350168
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "invalid_number",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S3-p008-f4",
+          "kind": "invalid",
+          "value": null,
+          "raw_value": "16.2 \r\n147 ",
+          "markers": [],
+          "row_label": "Cities of 8,000 or more inhabitants in 1900",
+          "column_label": "1910",
+          "period_label": "1910",
+          "unit_label": "deaths per 1,000 population",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.3307143,
+            0.3232323,
+            0.3564286,
+            0.3350168
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "invalid_number",
+          "human_confirmation": "unconfirmed"
+        }
+      ]
+    }
+  },
+  {
+    "page_id": "S3-p010",
+    "source": {
+      "source_id": "S3",
+      "local_file": "census-1910-mortality.pdf",
+      "title": "Mortality Statistics: 1911",
+      "report_number": "Bulletin 112",
+      "publication_date_or_year": "1913",
+      "observation_period": "1911",
+      "url": "https://www2.census.gov/library/publications/decennial/1910/bulletins/demographics/112-mortality-statistics.pdf",
+      "sha256": "2927c0a5bbfae5614d1f830313f74ff2978b6e59cd3b0d8bb189b71e4ddb8259",
+      "bytes": 14401034,
+      "total_pdf_pages": 140,
+      "evaluation_pdf_pages": [
+        5,
+        8,
+        10,
+        12
+      ],
+      "development_pdf_pages": [
+        6,
+        11
+      ],
+      "visual_tags": [
+        "speckle",
+        "variable_print_weight",
+        "small_type",
+        "two_columns",
+        "dense_tables"
+      ],
+      "tags_are_descriptive_not_measured_ocr_quality": true,
+      "reuse_policy": "Local originals; publish URL/checksum manifest rather than automatically redistributing full PDFs. See DATASET.md for source policy.",
+      "page_observations": [
+        {
+          "pdf_page": 5,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 5539,
+          "text_render_mode_counts": {
+            "3": 880
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 6,
+          "split": "development",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 5963,
+          "text_render_mode_counts": {
+            "3": 864
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 8,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 7335,
+          "text_render_mode_counts": {
+            "3": 1276
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 10,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 7134,
+          "text_render_mode_counts": {
+            "3": 1230
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 11,
+          "split": "development",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 5189,
+          "text_render_mode_counts": {
+            "3": 878
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 12,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 10600,
+          "text_render_mode_counts": {
+            "3": 2269
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        }
+      ]
+    },
+    "pdf_page": 10,
+    "printed_page_label": "12",
+    "pipeline": "N",
+    "configuration_fingerprint": "81ec7621db82a1836a9168766dc52481768b548d44a257771224c0b85fefc3f3",
+    "status": "completed",
+    "output": {
+      "native_regions": {
+        "S3-p010-text": "In comparing the rates for these foreign countries \r\nand cities it should be borne in min.cl that the :figures, \r\nlike the rates given fol' American. states and cities, \r\nare crude rates only, unco1Tected for differences in \r\nthe composition of the population with respect to \r\nsex and age. The population of certain cities is \r\nfavorably affected by large accessions of persons in \r\nearly or middle life, which would tend to make the \r\nrates of such cities lower than those of cities depend\u0002ent to a greater extent upon natural increase. The \r\nproportion of aged persons in the population has \r\nlltifliiithl ",
+        "S3-p010-f1": " 15.0 \r\n100 ",
+        "S3-p010-f2": "13. 7 \r\n157 ",
+        "S3-p010-f3": " \r\n 10.0 \r\n177 ",
+        "S3-p010-f4": "15. 7 \r\n171 "
+      },
+      "engine": "Existing PDF text",
+      "existing_text_characters": 7134,
+      "processing_seconds": 0.0342436999999336
+    },
+    "result_cache_hit": false,
+    "processed_at": "2026-10-06T02:29:22.794251+00:00",
+    "render": null,
+    "warmed_processing_seconds": [],
+    "regions": {
+      "text": "In comparing the rates for these foreign countries \r\nand cities it should be borne in min.cl that the :figures, \r\nlike the rates given fol' American. states and cities, \r\nare crude rates only, unco1Tected for differences in \r\nthe composition of the population with respect to \r\nsex and age. The population of certain cities is \r\nfavorably affected by large accessions of persons in \r\nearly or middle life, which would tend to make the \r\nrates of such cities lower than those of cities depend\u0002ent to a greater extent upon natural increase. The \r\nproportion of aged persons in the population has \r\nlltifliiithl ",
+      "text_alignment": "resolved",
+      "fields": [
+        {
+          "target_id": "S3-p010-f1",
+          "kind": "invalid",
+          "value": null,
+          "raw_value": " 15.0 \r\n100 ",
+          "markers": [],
+          "row_label": "London",
+          "column_label": "1911",
+          "period_label": "1911",
+          "unit_label": "deaths per 1,000 persons living",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.2064286,
+            0.2038997,
+            0.2292857,
+            0.2155989
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "invalid_number",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S3-p010-f2",
+          "kind": "invalid",
+          "value": null,
+          "raw_value": "13. 7 \r\n157 ",
+          "markers": [],
+          "row_label": "London",
+          "column_label": "1910",
+          "period_label": "1910",
+          "unit_label": "deaths per 1,000 persons living",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.2371429,
+            0.2038997,
+            0.2607143,
+            0.2155989
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "invalid_number",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S3-p010-f3",
+          "kind": "invalid",
+          "value": null,
+          "raw_value": " \r\n 10.0 \r\n177 ",
+          "markers": [],
+          "row_label": "Edinburgh",
+          "column_label": "1911",
+          "period_label": "1911",
+          "unit_label": "deaths per 1,000 persons living",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.2064286,
+            0.2116992,
+            0.2292857,
+            0.2233983
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "invalid_number",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S3-p010-f4",
+          "kind": "invalid",
+          "value": null,
+          "raw_value": "15. 7 \r\n171 ",
+          "markers": [],
+          "row_label": "Edinburgh",
+          "column_label": "1910",
+          "period_label": "1910",
+          "unit_label": "deaths per 1,000 persons living",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.2371429,
+            0.2116992,
+            0.2607143,
+            0.2233983
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "invalid_number",
+          "human_confirmation": "unconfirmed"
+        }
+      ]
+    }
+  },
+  {
+    "page_id": "S3-p012",
+    "source": {
+      "source_id": "S3",
+      "local_file": "census-1910-mortality.pdf",
+      "title": "Mortality Statistics: 1911",
+      "report_number": "Bulletin 112",
+      "publication_date_or_year": "1913",
+      "observation_period": "1911",
+      "url": "https://www2.census.gov/library/publications/decennial/1910/bulletins/demographics/112-mortality-statistics.pdf",
+      "sha256": "2927c0a5bbfae5614d1f830313f74ff2978b6e59cd3b0d8bb189b71e4ddb8259",
+      "bytes": 14401034,
+      "total_pdf_pages": 140,
+      "evaluation_pdf_pages": [
+        5,
+        8,
+        10,
+        12
+      ],
+      "development_pdf_pages": [
+        6,
+        11
+      ],
+      "visual_tags": [
+        "speckle",
+        "variable_print_weight",
+        "small_type",
+        "two_columns",
+        "dense_tables"
+      ],
+      "tags_are_descriptive_not_measured_ocr_quality": true,
+      "reuse_policy": "Local originals; publish URL/checksum manifest rather than automatically redistributing full PDFs. See DATASET.md for source policy.",
+      "page_observations": [
+        {
+          "pdf_page": 5,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 5539,
+          "text_render_mode_counts": {
+            "3": 880
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 6,
+          "split": "development",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 5963,
+          "text_render_mode_counts": {
+            "3": 864
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 8,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 7335,
+          "text_render_mode_counts": {
+            "3": 1276
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 10,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 7134,
+          "text_render_mode_counts": {
+            "3": 1230
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 11,
+          "split": "development",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 5189,
+          "text_render_mode_counts": {
+            "3": 878
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 12,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 10600,
+          "text_render_mode_counts": {
+            "3": 2269
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        }
+      ]
+    },
+    "pdf_page": 12,
+    "printed_page_label": "14",
+    "pipeline": "N",
+    "configuration_fingerprint": "81ec7621db82a1836a9168766dc52481768b548d44a257771224c0b85fefc3f3",
+    "status": "completed",
+    "output": {
+      "native_regions": {
+        "S3-p012-text": "REGISTRATION S~ATES 2 ••••••• \r\nCaliforni!I .•.•..... -.........•...... - \r\nColorado ............................\r\nConnecticut ..... · ....................\r\nIndiana .............................\r\nKentucky* •..•..•.......•...........\r\nMaino ...............................\r\nMaryland* ..........•............ -..\r\nMassachusetts .......................\r\nMichigan ............................\r\nMinnesota •••..•.•..•...........•...•\r\nMissouri. ..•.....••........ -- -.•.... - \r\nMontana •••.•....................•..\r\nNew Hampshiro .....................\r\nNow Jorsoy ..........................",
+        "S3-p012-f1": "!3.9 \r\n--",
+        "S3-p012-f2": "112.9 \r\n---",
+        "S3-p012-f3": "13. 7 \r\n129 ",
+        "S3-p012-f4": "83.2 \r\n1018 "
+      },
+      "engine": "Existing PDF text",
+      "existing_text_characters": 10600,
+      "processing_seconds": 0.03864579999935813
+    },
+    "result_cache_hit": false,
+    "processed_at": "2026-10-06T02:29:22.836406+00:00",
+    "render": null,
+    "warmed_processing_seconds": [],
+    "regions": {
+      "text": "REGISTRATION S~ATES 2 ••••••• \r\nCaliforni!I .•.•..... -.........•...... - \r\nColorado ............................\r\nConnecticut ..... · ....................\r\nIndiana .............................\r\nKentucky* •..•..•.......•...........\r\nMaino ...............................\r\nMaryland* ..........•............ -..\r\nMassachusetts .......................\r\nMichigan ............................\r\nMinnesota •••..•.•..•...........•...•\r\nMissouri. ..•.....••........ -- -.•.... - \r\nMontana •••.•....................•..\r\nNew Hampshiro .....................\r\nNow Jorsoy ..........................",
+      "text_alignment": "resolved",
+      "fields": [
+        {
+          "target_id": "S3-p012-f1",
+          "kind": "invalid",
+          "value": null,
+          "raw_value": "!3.9 \r\n--",
+          "markers": [],
+          "row_label": "Registration states",
+          "column_label": "Both sexes, All ages",
+          "period_label": "1911",
+          "unit_label": "deaths per 1,000 population",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.2871429,
+            0.2272473,
+            0.3142857,
+            0.2400893
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "invalid_number",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S3-p012-f2",
+          "kind": "invalid",
+          "value": null,
+          "raw_value": "112.9 \r\n---",
+          "markers": [],
+          "row_label": "Registration states",
+          "column_label": "Both sexes, Under 1 year",
+          "period_label": "1911",
+          "unit_label": "deaths per 1,000 population in age group",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.3257143,
+            0.2272473,
+            0.3564286,
+            0.2400893
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "invalid_number",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S3-p012-f3",
+          "kind": "invalid",
+          "value": null,
+          "raw_value": "13. 7 \r\n129 ",
+          "markers": [],
+          "row_label": "California",
+          "column_label": "Both sexes, All ages",
+          "period_label": "1911",
+          "unit_label": "deaths per 1,000 population",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.2871429,
+            0.2423227,
+            0.3142857,
+            0.2546064
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "invalid_number",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S3-p012-f4",
+          "kind": "invalid",
+          "value": null,
+          "raw_value": "83.2 \r\n1018 ",
+          "markers": [],
+          "row_label": "California",
+          "column_label": "Both sexes, Under 1 year",
+          "period_label": "1911",
+          "unit_label": "deaths per 1,000 population in age group",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.3257143,
+            0.2423227,
+            0.3564286,
+            0.2546064
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "invalid_number",
+          "human_confirmation": "unconfirmed"
+        }
+      ]
+    }
+  },
+  {
+    "page_id": "S4-p004",
+    "source": {
+      "source_id": "S4",
+      "local_file": "census-1910-1916-population.pdf",
+      "title": "Estimates of Population of the United States, 1910-1916",
+      "report_number": "Bulletin 133",
+      "publication_date_or_year": "1916",
+      "observation_period": "1910-1916",
+      "url": "https://www2.census.gov/library/publications/decennial/1910/bulletins/demographics/133-estimates-of-population-of-us-1910-1916.pdf",
+      "sha256": "77213181544c553be9f2ee360607333bb61cbaec74556b34856ff129d4cbb7f4",
+      "bytes": 5858235,
+      "total_pdf_pages": 42,
+      "evaluation_pdf_pages": [
+        4,
+        10,
+        11
+      ],
+      "development_pdf_pages": [
+        6
+      ],
+      "visual_tags": [
+        "light_uneven_print",
+        "speckle",
+        "small_type",
+        "two_columns_or_full_width_tables",
+        "multilevel_headers"
+      ],
+      "tags_are_descriptive_not_measured_ocr_quality": true,
+      "reuse_policy": "Local originals; publish URL/checksum manifest rather than automatically redistributing full PDFs. See DATASET.md for source policy.",
+      "page_observations": [
+        {
+          "pdf_page": 4,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 4747,
+          "text_render_mode_counts": {
+            "3": 777
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 6,
+          "split": "development",
+          "scan_image_objects": 2,
+          "extracted_text_characters": 4874,
+          "text_render_mode_counts": {
+            "3": 808
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 10,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 7565,
+          "text_render_mode_counts": {
+            "3": 1226
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 11,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 8653,
+          "text_render_mode_counts": {
+            "3": 1457
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        }
+      ]
+    },
+    "pdf_page": 4,
+    "printed_page_label": "7",
+    "pipeline": "N",
+    "configuration_fingerprint": "81ec7621db82a1836a9168766dc52481768b548d44a257771224c0b85fefc3f3",
+    "status": "completed",
+    "output": {
+      "native_regions": {
+        "S4-p004-text": "Estimates of population for the years subsequent \r\nto the census are required for the annual reports of \r\nthe Census Bureau and other Government bureaus. \r\n'They are used in computing annual mortality rates \r\nof cities and states, for :fixing the compensation of \r\n-certain county officials, and in several states the \r\n·census estimates of population are used as a basis for \r\nestablishing the number of liquor licenses that may \r\nbe granted. Many public-service corporations use \r\nour estimates as a basis for the expansion of their \r\n·operations. ",
+        "S4-p004-f1": "8,000 ",
+        "S4-p004-f2": "p\r\n118.5 m",
+        "S4-p004-f3": "118.5 ",
+        "S4-p004-f4": " 12, "
+      },
+      "engine": "Existing PDF text",
+      "existing_text_characters": 4747,
+      "processing_seconds": 0.031311799999457435
+    },
+    "result_cache_hit": false,
+    "processed_at": "2026-10-06T02:29:22.881955+00:00",
+    "render": null,
+    "warmed_processing_seconds": [],
+    "regions": {
+      "text": "Estimates of population for the years subsequent \r\nto the census are required for the annual reports of \r\nthe Census Bureau and other Government bureaus. \r\n'They are used in computing annual mortality rates \r\nof cities and states, for :fixing the compensation of \r\n-certain county officials, and in several states the \r\n·census estimates of population are used as a basis for \r\nestablishing the number of liquor licenses that may \r\nbe granted. Many public-service corporations use \r\nour estimates as a basis for the expansion of their \r\n·operations. ",
+      "text_alignment": "resolved",
+      "fields": [
+        {
+          "target_id": "S4-p004-f1",
+          "kind": "number",
+          "value": "8000",
+          "raw_value": "8,000 ",
+          "markers": [],
+          "row_label": "Cities",
+          "column_label": "Minimum population",
+          "period_label": "April 15, 1910",
+          "unit_label": "persons",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.3622291,
+            0.2627778,
+            0.4078947,
+            0.2788889
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "prototype_requires_review",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S4-p004-f2",
+          "kind": "invalid",
+          "value": null,
+          "raw_value": "p\r\n118.5 m",
+          "markers": [],
+          "row_label": "Intercensal interval",
+          "column_label": "Elapsed time",
+          "period_label": "1900-1910",
+          "unit_label": "months",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.7956656,
+            0.3161111,
+            0.8490712,
+            0.3327778
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "invalid_number",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S4-p004-f3",
+          "kind": "number",
+          "value": "118.5",
+          "raw_value": "118.5 ",
+          "markers": [],
+          "row_label": "Annual increase calculation",
+          "column_label": "Divisor",
+          "period_label": "1900-1910",
+          "unit_label": "months",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.7422601,
+            0.3477778,
+            0.7933437,
+            0.3633333
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "prototype_requires_review",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S4-p004-f4",
+          "kind": "invalid",
+          "value": null,
+          "raw_value": " 12, ",
+          "markers": [],
+          "row_label": "Annual increase calculation",
+          "column_label": "Multiplier",
+          "period_label": "1900-1910",
+          "unit_label": "months per year",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.628483,
+            0.3627778,
+            0.6547988,
+            0.3783333
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "invalid_number",
+          "human_confirmation": "unconfirmed"
+        }
+      ]
+    }
+  },
+  {
+    "page_id": "S4-p010",
+    "source": {
+      "source_id": "S4",
+      "local_file": "census-1910-1916-population.pdf",
+      "title": "Estimates of Population of the United States, 1910-1916",
+      "report_number": "Bulletin 133",
+      "publication_date_or_year": "1916",
+      "observation_period": "1910-1916",
+      "url": "https://www2.census.gov/library/publications/decennial/1910/bulletins/demographics/133-estimates-of-population-of-us-1910-1916.pdf",
+      "sha256": "77213181544c553be9f2ee360607333bb61cbaec74556b34856ff129d4cbb7f4",
+      "bytes": 5858235,
+      "total_pdf_pages": 42,
+      "evaluation_pdf_pages": [
+        4,
+        10,
+        11
+      ],
+      "development_pdf_pages": [
+        6
+      ],
+      "visual_tags": [
+        "light_uneven_print",
+        "speckle",
+        "small_type",
+        "two_columns_or_full_width_tables",
+        "multilevel_headers"
+      ],
+      "tags_are_descriptive_not_measured_ocr_quality": true,
+      "reuse_policy": "Local originals; publish URL/checksum manifest rather than automatically redistributing full PDFs. See DATASET.md for source policy.",
+      "page_observations": [
+        {
+          "pdf_page": 4,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 4747,
+          "text_render_mode_counts": {
+            "3": 777
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 6,
+          "split": "development",
+          "scan_image_objects": 2,
+          "extracted_text_characters": 4874,
+          "text_render_mode_counts": {
+            "3": 808
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 10,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 7565,
+          "text_render_mode_counts": {
+            "3": 1226
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 11,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 8653,
+          "text_render_mode_counts": {
+            "3": 1457
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        }
+      ]
+    },
+    "pdf_page": 10,
+    "printed_page_label": "14",
+    "pipeline": "N",
+    "configuration_fingerprint": "81ec7621db82a1836a9168766dc52481768b548d44a257771224c0b85fefc3f3",
+    "status": "completed",
+    "output": {
+      "native_regions": {
+        "S4-p010-text": "UNITED STATES .......\r\nContinental United States \r\nOut~{/~~~~~~~i. .~:........ \r\n~~~~ic:::::::::::::::: \r\nI anama Canal Zone...... \r\nPhilippi;ne Islands....... \r\nE~;;Jga~~:~::::::::::::::: \r\np~~~~ ;~~~~tifio~~~ \r\nabroad ................",
+        "S4-p010-f1": "..........",
+        "S4-p010-f2": ".........",
+        "S4-p010-f3": " . 3, 026, 789 ",
+        "S4-p010-f4": "2, 973, 890"
+      },
+      "engine": "Existing PDF text",
+      "existing_text_characters": 7567,
+      "processing_seconds": 0.03409029999966151
+    },
+    "result_cache_hit": false,
+    "processed_at": "2026-10-06T02:29:22.921073+00:00",
+    "render": null,
+    "warmed_processing_seconds": [],
+    "regions": {
+      "text": "UNITED STATES .......\r\nContinental United States \r\nOut~{/~~~~~~~i. .~:........ \r\n~~~~ic:::::::::::::::: \r\nI anama Canal Zone...... \r\nPhilippi;ne Islands....... \r\nE~;;Jga~~:~::::::::::::::: \r\np~~~~ ;~~~~tifio~~~ \r\nabroad ................",
+      "text_alignment": "resolved",
+      "fields": [
+        {
+          "target_id": "S4-p010-f1",
+          "kind": "unavailable",
+          "value": null,
+          "raw_value": "..........",
+          "markers": [
+            ".........."
+          ],
+          "marker_kind": "dot_leader_no_value",
+          "row_label": "United States",
+          "column_label": "Area, Total",
+          "period_label": "1916",
+          "unit_label": "square miles",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.2313084,
+            0.2627778,
+            0.2827103,
+            0.2727778
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "unavailable_value",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S4-p010-f2",
+          "kind": "unavailable",
+          "value": null,
+          "raw_value": ".........",
+          "markers": [
+            "........."
+          ],
+          "marker_kind": "dot_leader_no_value",
+          "row_label": "United States",
+          "column_label": "Area, Land",
+          "period_label": "1916",
+          "unit_label": "square miles",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.288162,
+            0.2627778,
+            0.334891,
+            0.2727778
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "unavailable_value",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S4-p010-f3",
+          "kind": "invalid",
+          "value": null,
+          "raw_value": " . 3, 026, 789 ",
+          "markers": [],
+          "row_label": "Continental United States",
+          "column_label": "Area, Total",
+          "period_label": "1916",
+          "unit_label": "square miles",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.2313084,
+            0.2755556,
+            0.2827103,
+            0.2883333
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "invalid_number",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S4-p010-f4",
+          "kind": "invalid",
+          "value": null,
+          "raw_value": "2, 973, 890",
+          "markers": [],
+          "row_label": "Continental United States",
+          "column_label": "Area, Land",
+          "period_label": "1916",
+          "unit_label": "square miles",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.288162,
+            0.2755556,
+            0.3372274,
+            0.2883333
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "invalid_number",
+          "human_confirmation": "unconfirmed"
+        }
+      ]
+    }
+  },
+  {
+    "page_id": "S4-p011",
+    "source": {
+      "source_id": "S4",
+      "local_file": "census-1910-1916-population.pdf",
+      "title": "Estimates of Population of the United States, 1910-1916",
+      "report_number": "Bulletin 133",
+      "publication_date_or_year": "1916",
+      "observation_period": "1910-1916",
+      "url": "https://www2.census.gov/library/publications/decennial/1910/bulletins/demographics/133-estimates-of-population-of-us-1910-1916.pdf",
+      "sha256": "77213181544c553be9f2ee360607333bb61cbaec74556b34856ff129d4cbb7f4",
+      "bytes": 5858235,
+      "total_pdf_pages": 42,
+      "evaluation_pdf_pages": [
+        4,
+        10,
+        11
+      ],
+      "development_pdf_pages": [
+        6
+      ],
+      "visual_tags": [
+        "light_uneven_print",
+        "speckle",
+        "small_type",
+        "two_columns_or_full_width_tables",
+        "multilevel_headers"
+      ],
+      "tags_are_descriptive_not_measured_ocr_quality": true,
+      "reuse_policy": "Local originals; publish URL/checksum manifest rather than automatically redistributing full PDFs. See DATASET.md for source policy.",
+      "page_observations": [
+        {
+          "pdf_page": 4,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 4747,
+          "text_render_mode_counts": {
+            "3": 777
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 6,
+          "split": "development",
+          "scan_image_objects": 2,
+          "extracted_text_characters": 4874,
+          "text_render_mode_counts": {
+            "3": 808
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 10,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 7565,
+          "text_render_mode_counts": {
+            "3": 1226
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 11,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 8653,
+          "text_render_mode_counts": {
+            "3": 1457
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        }
+      ]
+    },
+    "pdf_page": 11,
+    "printed_page_label": "15",
+    "pipeline": "N",
+    "configuration_fingerprint": "81ec7621db82a1836a9168766dc52481768b548d44a257771224c0b85fefc3f3",
+    "status": "completed",
+    "output": {
+      "native_regions": {
+        "S4-p011-text": "NEW ENGLAND DIVISION •••.•....•.•.\r\nMaine .••••••.•.•.•.....•.•.....••\r\nNew Hampshire •••..•.••••..•....\r\nVermont •••••••...••..••••..•...•\r\nMassachusetts ••.•...•.••........•\r\nRhode Island ••.....•.•••.•......•\r\nConnecticut •••••...••.•••••.....•\r\nMIDDLE ATLANTIC DIVISION ••••..•....\r\nNe'v York ••.•.•.......••..•......\r\n~:~~[;r~ii;i;i.:: : : : : : : : : : : : : : : : : : : ",
+        "S4-p011-f1": "• 2, 973,890 ",
+        "S4-p011-f2": "91, 972, 266 ",
+        "S4-p011-f3": "61, 976 ",
+        "S4-p011-f4": "6,552,681 "
+      },
+      "engine": "Existing PDF text",
+      "existing_text_characters": 8655,
+      "processing_seconds": 0.03323350000027858
+    },
+    "result_cache_hit": false,
+    "processed_at": "2026-10-06T02:29:22.962622+00:00",
+    "render": null,
+    "warmed_processing_seconds": [],
+    "regions": {
+      "text": "NEW ENGLAND DIVISION •••.•....•.•.\r\nMaine .••••••.•.•.•.....•.•.....••\r\nNew Hampshire •••..•.••••..•....\r\nVermont •••••••...••..••••..•...•\r\nMassachusetts ••.•...•.••........•\r\nRhode Island ••.....•.•••.•......•\r\nConnecticut •••••...••.•••••.....•\r\nMIDDLE ATLANTIC DIVISION ••••..•....\r\nNe'v York ••.•.•.......••..•......\r\n~:~~[;r~ii;i;i.:: : : : : : : : : : : : : : : : : : : ",
+      "text_alignment": "resolved",
+      "fields": [
+        {
+          "target_id": "S4-p011-f1",
+          "kind": "invalid",
+          "value": null,
+          "raw_value": "• 2, 973,890 ",
+          "markers": [],
+          "row_label": "Continental United States",
+          "column_label": "Land area",
+          "period_label": "July 1, 1916",
+          "unit_label": "square miles",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.2695398,
+            0.1844444,
+            0.3272462,
+            0.1983333
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "invalid_number",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S4-p011-f2",
+          "kind": "invalid",
+          "value": null,
+          "raw_value": "91, 972, 266 ",
+          "markers": [],
+          "row_label": "Continental United States",
+          "column_label": "Census population",
+          "period_label": "April 15, 1910",
+          "unit_label": "persons",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.339664,
+            0.1844444,
+            0.4010226,
+            0.1983333
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "invalid_number",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S4-p011-f3",
+          "kind": "invalid",
+          "value": null,
+          "raw_value": "61, 976 ",
+          "markers": [],
+          "row_label": "New England division",
+          "column_label": "Land area",
+          "period_label": "July 1, 1916",
+          "unit_label": "square miles",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.2856099,
+            0.2083333,
+            0.3272462,
+            0.2222222
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "invalid_number",
+          "human_confirmation": "unconfirmed"
+        },
+        {
+          "target_id": "S4-p011-f4",
+          "kind": "number",
+          "value": "6552681",
+          "raw_value": "6,552,681 ",
+          "markers": [],
+          "row_label": "New England division",
+          "column_label": "Census population",
+          "period_label": "April 15, 1910",
+          "unit_label": "persons",
+          "context_source": "supplied_target_specification",
+          "bounds": [
+            0.3469686,
+            0.2083333,
+            0.4010226,
+            0.2222222
+          ],
+          "evidence": [],
+          "alignment": "resolved",
+          "disposition": "review_required",
+          "reason": "prototype_requires_review",
+          "human_confirmation": "unconfirmed"
+        }
+      ]
+    }
+  }
+]

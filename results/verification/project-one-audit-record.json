@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "recorded_date": "2026-10-06",
+  "purpose": "Record a local code, evidence, narrative and public-release-readiness audit for Project One.",
+  "scope": "Repository readiness review only; no commit, publication, or new OCR evaluation was performed.",
+  "original_study": {
+    "freeze_path": "data/evaluation-freeze.json",
+    "freeze_sha256": "b99310f3a5ab580b6e49cebfe2160759de871b8bc52789c06a60b9619e61ed08",
+    "benchmark_index_path": "results/benchmark-index.json",
+    "benchmark_index_sha256_after_score_hashing": "39714df437bd79f26f5a5dda192682f29f41c10419ef007d4c4d41576d12e26f",
+    "score_outputs": {
+      "comparison.csv": "c67196eb6f1d2c70698166e290aec2eccfd6915fb438c41fcd72f5057037128d",
+      "comparison.json": "e3eb1056d0f97aafe197813d59a7745289ac5f3878a8ce1c85953c88a42f40d2"
+    },
+    "summary": "A 14/48, B 31/48, C 7/48, N 5/48 strict scalar matches; score outputs were byte-for-byte unchanged when regenerated after integrity checks."
+  },
+  "audit_changes": [
+    "Made annotation integrity checks explicit so Python optimization cannot remove them; added duplicate-page/target, source identity, bounds, reference-separation and exact-coverage checks.",
+    "Required model inventory byte counts as well as SHA-256 matches.",
+    "Hardened comparison generation to reject failed or partial runs, missing/duplicate targets, altered score files, incomplete page coverage and mismatched OCR render hashes.",
+    "Added a separate score-artifact finalizer to preserve the historical benchmark runner and add hashes for evaluation.json and scoring.log.",
+    "Added regression coverage for model sizes, duplicate annotation pages, failed benchmark indexes and score-artifact tampering.",
+    "Added a pinned RapidOCR test dependency set and documented the test command.",
+    "Revised portfolio narrative to first person while disclosing Codex-assisted development/annotation and same-annotator verification; excluded internal audit notes and execution logs from Git.",
+    "Made the static annotation serializer disclose that it does not perform the second visual pass and refuse to run after a freeze; sanitized environment notes and reconciled the prior revision record with all changed frozen files."
+  ],
+  "verification": {
+    "log_path": "results/verification/project-one-audit-tests.txt",
+    "log_sha256": "5276b3ef0a5686cbc204724d41806eb0d108b40a6ea51ea49a1cf8c2d37d2dec",
+    "checks": {
+      "compileall": {"exit_code": 0},
+      "pytest": {"exit_code": 0, "result": "35 passed in 1.63s", "post_exit_warning": "Non-fatal pyreadline3 cleanup warning; process exit remained 0."},
+      "annotation_validator_under_python_optimized": {"exit_code": 0, "selected_pages": 16, "development_targets": 16, "evaluation_targets": 48},
+      "source_verification": {"exit_code": 0, "sources": ["S1", "S2", "S3", "S4"]},
+      "score_hash_finalizer": {"exit_code": 0, "pipelines": ["A", "B", "C", "N"]},
+      "comparison_summarizer": {"exit_code": 0, "comparison_csv_unchanged": true, "comparison_json_unchanged": true},
+      "annotation_authoring_guard": {"exit_code": 1, "expected": true, "result": "Refused to overwrite frozen annotations."}
+    },
+    "original_freeze_check": {"exit_code": 1, "expected": true, "first_mismatch": "pyproject.toml"}
+  },
+  "freeze_divergence": {
+    "changed_artifacts": [
+      "pyproject.toml",
+      "data/annotations/README.md",
+      "src/scan_intake/__init__.py",
+      "src/scan_intake/contracts.py",
+      "src/scan_intake/extraction.py",
+      "src/scan_intake/jobs.py",
+      "src/scan_intake/process.py",
+      "tests/test_contracts_and_numbers.py",
+      "tests/test_persistence_and_process.py"
+    ],
+    "record_path": "results/verification/post-study-runtime-revision.json",
+    "consequence": "The original evaluation outputs remain preserved, but the current tree fails the original source-freeze check. A new OCR comparison needs a separately versioned source snapshot and results directory."
+  },
+  "release_gaps": [
+    "No clean-checkout reproduction has been completed.",
+    "No source/dependency/model license and notice inventory has been completed; the repository has no project license file.",
+    "References have no independent human adjudication, so claims remain limited to this same-annotator-checked sample.",
+    "The working tree has no Git commits; no public release or publication occurred."
+  ],
+  "privacy_check": {
+    "user_absolute_path_found_in_nonignored_project_files": false,
+    "internal_notes_and_per-pipeline_execution_logs_ignored": true
+  }
+}

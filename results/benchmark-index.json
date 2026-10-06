@@ -1,0 +1,127 @@
+{
+  "started_at_utc": "2026-10-06T01:55:06.057081+00:00",
+  "status": "completed",
+  "pipelines": {
+    "A": {
+      "status": "completed",
+      "command": [
+        "scan_intake.cli",
+        "extract",
+        "--pipeline",
+        "A",
+        "--split",
+        "evaluation",
+        "--fresh",
+        "--repetitions",
+        "3",
+        "--cold-render"
+      ],
+      "started_at_utc": "2026-10-06T01:55:06.059078+00:00",
+      "process_pid": 23356,
+      "exit_code": 0,
+      "external_wall_seconds": 220.60043589999987,
+      "run_id": "20261006T015506Z-A-e2f73840",
+      "artifact_sha256": {
+        "run.json": "8d062bdfc780255570cfa920c6df014b270d58aaca7bc7968f73322ef5214ecf",
+        "pages.json": "b8907d2ad2a09eacafea80947d3537cf5b71798c796600e20483ed69dc04f379",
+        "candidates.csv": "67761e5a9022b41750f9aa8eae2796b21b9b2b4f27070725122c204b7b3302ec",
+        "review.csv": "67761e5a9022b41750f9aa8eae2796b21b9b2b4f27070725122c204b7b3302ec",
+        "evaluation.json": "0cf39fd6327017802acd53f78b446161c3737b6998930f90e51d47f7f949957d",
+        "scoring.log": "18d0a994a3cfe3ef62ee5a6fdefe2be9d1ffd627c8e940f8720ef98078d5f900"
+      },
+      "scoring_exit_code": 0
+    },
+    "B": {
+      "status": "completed",
+      "command": [
+        "scan_intake.cli",
+        "extract",
+        "--pipeline",
+        "B",
+        "--split",
+        "evaluation",
+        "--fresh",
+        "--repetitions",
+        "3",
+        "--cold-render"
+      ],
+      "started_at_utc": "2026-10-06T01:58:48.250170+00:00",
+      "process_pid": 20184,
+      "exit_code": 0,
+      "external_wall_seconds": 508.8897414000003,
+      "run_id": "20261006T015848Z-B-c51c0cad",
+      "artifact_sha256": {
+        "run.json": "1d92b0303a4a059f030e9abf247520fb424ed45c1fa055a2f342ef22af986ab2",
+        "pages.json": "bc8c04b955085d0b8580d88e52e89b4087e6721df0f29d968c2c29e9e498f7bb",
+        "candidates.csv": "0c97fda9e466ee02295f9c241cf5f77a5218e3a9e049ba72453a60873b7d87bc",
+        "review.csv": "0c97fda9e466ee02295f9c241cf5f77a5218e3a9e049ba72453a60873b7d87bc",
+        "evaluation.json": "295bb44bf953ca8f2ff060d31c56bc125872065c3c9aae07424f95a4dfc30868",
+        "scoring.log": "83aababa6af4e3e7a8185bea4cf180e369498fbb69707699e479fe4ae5242c88"
+      },
+      "scoring_exit_code": 0
+    },
+    "C": {
+      "status": "completed",
+      "command": [
+        "scan_intake.cli",
+        "extract",
+        "--pipeline",
+        "C",
+        "--split",
+        "evaluation",
+        "--fresh",
+        "--repetitions",
+        "3",
+        "--cold-render"
+      ],
+      "started_at_utc": "2026-10-06T02:07:18.443299+00:00",
+      "process_pid": 456,
+      "exit_code": 0,
+      "external_wall_seconds": 1322.4884524000008,
+      "run_id": "20261006T020719Z-C-c36dc854",
+      "artifact_sha256": {
+        "run.json": "b354b4902a7b28e5b3501377b872356faf5333ee0f6360ac32f200d9a1ba953a",
+        "pages.json": "b069afa15a727367948f4af0799f0f55aa65bf7331f98306958235f959a2c30e",
+        "candidates.csv": "143806267097c9e4063fe6ce1177368db12d2aba35faba7aa79ffc6978e51a75",
+        "review.csv": "143806267097c9e4063fe6ce1177368db12d2aba35faba7aa79ffc6978e51a75",
+        "evaluation.json": "41c003a81edd05dc8a88395a6e463ed870dec7b85b5cf6f9aa4c631d29fc9c1f",
+        "scoring.log": "7fdb220a6cb6f9b2ddb24945f807fef98fee9bbdc0fb4e7c80665a8bc6542ad2"
+      },
+      "scoring_exit_code": 0
+    },
+    "N": {
+      "status": "completed",
+      "command": [
+        "scan_intake.cli",
+        "extract",
+        "--pipeline",
+        "N",
+        "--split",
+        "evaluation",
+        "--fresh"
+      ],
+      "started_at_utc": "2026-10-06T02:29:22.177298+00:00",
+      "process_pid": 4424,
+      "exit_code": 0,
+      "external_wall_seconds": 0.9047222999997757,
+      "run_id": "20261006T022922Z-N-751cdf6d",
+      "artifact_sha256": {
+        "run.json": "d0b6a143e7182831feca68b82c947695960a36b658dca686e2f1b1fea0485b13",
+        "pages.json": "b1d0bdd4a715244be2be52f0bf80ac20d292259caaeb47e5db8e020aa3d6ad30",
+        "candidates.csv": "37b4ec470c2c728cc2720750441d627a3ba3e86464ed0857255fc58985b9b74d",
+        "review.csv": "37b4ec470c2c728cc2720750441d627a3ba3e86464ed0857255fc58985b9b74d",
+        "evaluation.json": "70aa315e95bd7d86b30061238d10d08d2d18f2c07f3d4743345f5b732d916f2a",
+        "scoring.log": "d426e18c714e4b21ac0fcb16ce45cfa8fb4c6b14ce210524585b8021daf5ff6c"
+      },
+      "scoring_exit_code": 0
+    }
+  },
+  "timing_protocol": "Each OCR pipeline renders all selected pages into a new cache, performs one initial extraction and three warmed repeats per page. CLI workload timing includes repetitions; warmed medians isolate processing. External wall timing also includes final export.",
+  "order": [
+    "A",
+    "B",
+    "C",
+    "N"
+  ],
+  "finished_at_utc": "2026-10-06T02:29:23.933341+00:00"
+}

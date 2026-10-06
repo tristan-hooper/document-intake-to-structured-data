@@ -1,0 +1,24 @@
+{
+  "run_id": "20261006T015506Z-A-e2f73840",
+  "pipeline": "A",
+  "split": "evaluation",
+  "configuration_fingerprint": "7c4f3ab0b90a528369bdc158a0706173150e1456e39bb9118e898f1836100464",
+  "source_manifest_fingerprint": "351422e35e63b57636047c8f3af7427d9eac65a7a7ec8b67e7bf7db2bc9db84b",
+  "target_spec_fingerprint": "ae99899840274997606f6ea8f8879b06e776aae0ba912806e4fbd838902c10f6",
+  "initialization_seconds": [
+    0.6825269000000844
+  ],
+  "command_seconds": 219.71191380000073,
+  "repetitions": 3,
+  "cold_render": true,
+  "timing_scope": "includes source/model verification, initialization, render/cache, all recognition repetitions and page commits; excludes final export",
+  "cache_hits": 0,
+  "completed_pages": 12,
+  "selected_pages": 12,
+  "acceptance_policy": "all_fields_review_required",
+  "artifact_sha256": {
+    "candidates.csv": "67761e5a9022b41750f9aa8eae2796b21b9b2b4f27070725122c204b7b3302ec",
+    "pages.json": "b8907d2ad2a09eacafea80947d3537cf5b71798c796600e20483ed69dc04f379",
+    "review.csv": "67761e5a9022b41750f9aa8eae2796b21b9b2b4f27070725122c204b7b3302ec"
+  }
+}

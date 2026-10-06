@@ -1,0 +1,7 @@
+Command: .cache/rapidocr-runtime-0.1.2/Scripts/python.exe -m scan_intake.cli extract --pipeline B --split development --fresh --cold-render --repetitions 0
+Exit code: 0
+Run: 20261006T153036Z-B-7513530a
+Environment: fresh isolated CPython 3.12.10 environment with the 30-package RapidOCR-only dependency set.
+Pages: 4/4 complete (S2-p002, S3-p006, S3-p011, S4-p006)
+Output: 16 candidate rows and 16 review rows; all fields remain review-required.
+This was an operational demonstration on the development split, not a new accuracy evaluation. The machine-specific executor stdout is retained under the ignored local .cache/diagnostics directory; portable artifacts and verified hashes are in results/demo/B-development-isolated-20261006T153036Z-B-7513530a/.

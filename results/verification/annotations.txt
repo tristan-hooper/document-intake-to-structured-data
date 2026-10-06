@@ -1,0 +1,13 @@
+{
+  "pages": 16,
+  "targets": {
+    "development": 16,
+    "evaluation": 48
+  },
+  "unavailable_targets": {
+    "development": 1,
+    "evaluation": 2
+  },
+  "hashes_and_bounds": "verified",
+  "runtime_reference_separation": "verified"
+}

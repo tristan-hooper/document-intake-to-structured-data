@@ -1,0 +1,318 @@
+{
+  "manifest_version": 1,
+  "retrieval_date_local": "2026-10-05",
+  "timezone": "America/New_York",
+  "status": "sources_downloaded_pages_inspected_annotations_pending_no_ocr_benchmark_run",
+  "inspection_library": {
+    "pypdfium2": "4.30.0"
+  },
+  "page_numbering": "one_based_pdf_position",
+  "evaluation_page_count": 12,
+  "development_page_count": 4,
+  "selection_before_ocr_evaluation": true,
+  "synthetically_degraded_benchmark_pages": false,
+  "sources": [
+    {
+      "source_id": "S1",
+      "local_file": "census-1970-school-enrollment.pdf",
+      "title": "School Enrollment in the United States: 1970",
+      "report_number": "P20-215",
+      "publication_date_or_year": "1971-03-05",
+      "observation_period": "1970",
+      "url": "https://www.census.gov/content/dam/Census/library/publications/1970/demo/p20-215.pdf",
+      "sha256": "a3d40e7c4abb85d59a0ac5b7e040415c50c3419eeb2966fe4c3c7a4520eaf318",
+      "bytes": 218863,
+      "total_pdf_pages": 2,
+      "evaluation_pdf_pages": [
+        1,
+        2
+      ],
+      "development_pdf_pages": [],
+      "visual_tags": [
+        "high_contrast",
+        "small_type",
+        "two_columns",
+        "ruled_tables"
+      ],
+      "tags_are_descriptive_not_measured_ocr_quality": true,
+      "reuse_policy": "Local originals; publish URL/checksum manifest rather than automatically redistributing full PDFs. See DATASET.md for source policy.",
+      "page_observations": [
+        {
+          "pdf_page": 1,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 0,
+          "text_render_mode_counts": {},
+          "existing_text_layer": false,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 2,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 0,
+          "text_render_mode_counts": {},
+          "existing_text_layer": false,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        }
+      ]
+    },
+    {
+      "source_id": "S2",
+      "local_file": "census-1962-mobility.pdf",
+      "title": "Mobility of the Population of the United States: March 1960 to March 1961",
+      "report_number": "P20-118",
+      "publication_date_or_year": "1962-08-09",
+      "observation_period": "1960-1961",
+      "url": "https://www.census.gov/content/dam/Census/library/publications/1962/demo/p20-118.pdf",
+      "sha256": "3ee297e255597982d9823f9ff73a43c68aebecb82881dcf866574def7e8dfbc9",
+      "bytes": 267150,
+      "total_pdf_pages": 11,
+      "evaluation_pdf_pages": [
+        1,
+        4,
+        5
+      ],
+      "development_pdf_pages": [
+        2
+      ],
+      "visual_tags": [
+        "uneven_print",
+        "coarse_characters",
+        "small_type",
+        "two_columns",
+        "mixed_text_tables"
+      ],
+      "tags_are_descriptive_not_measured_ocr_quality": true,
+      "reuse_policy": "Local originals; publish URL/checksum manifest rather than automatically redistributing full PDFs. See DATASET.md for source policy.",
+      "page_observations": [
+        {
+          "pdf_page": 1,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 0,
+          "text_render_mode_counts": {},
+          "existing_text_layer": false,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 2,
+          "split": "development",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 0,
+          "text_render_mode_counts": {},
+          "existing_text_layer": false,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 4,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 0,
+          "text_render_mode_counts": {},
+          "existing_text_layer": false,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 5,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 0,
+          "text_render_mode_counts": {},
+          "existing_text_layer": false,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        }
+      ]
+    },
+    {
+      "source_id": "S3",
+      "local_file": "census-1910-mortality.pdf",
+      "title": "Mortality Statistics: 1911",
+      "report_number": "Bulletin 112",
+      "publication_date_or_year": "1913",
+      "observation_period": "1911",
+      "url": "https://www2.census.gov/library/publications/decennial/1910/bulletins/demographics/112-mortality-statistics.pdf",
+      "sha256": "2927c0a5bbfae5614d1f830313f74ff2978b6e59cd3b0d8bb189b71e4ddb8259",
+      "bytes": 14401034,
+      "total_pdf_pages": 140,
+      "evaluation_pdf_pages": [
+        5,
+        8,
+        10,
+        12
+      ],
+      "development_pdf_pages": [
+        6,
+        11
+      ],
+      "visual_tags": [
+        "speckle",
+        "variable_print_weight",
+        "small_type",
+        "two_columns",
+        "dense_tables"
+      ],
+      "tags_are_descriptive_not_measured_ocr_quality": true,
+      "reuse_policy": "Local originals; publish URL/checksum manifest rather than automatically redistributing full PDFs. See DATASET.md for source policy.",
+      "page_observations": [
+        {
+          "pdf_page": 5,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 5539,
+          "text_render_mode_counts": {
+            "3": 880
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 6,
+          "split": "development",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 5963,
+          "text_render_mode_counts": {
+            "3": 864
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 8,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 7335,
+          "text_render_mode_counts": {
+            "3": 1276
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 10,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 7134,
+          "text_render_mode_counts": {
+            "3": 1230
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 11,
+          "split": "development",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 5189,
+          "text_render_mode_counts": {
+            "3": 878
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 12,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 10600,
+          "text_render_mode_counts": {
+            "3": 2269
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        }
+      ]
+    },
+    {
+      "source_id": "S4",
+      "local_file": "census-1910-1916-population.pdf",
+      "title": "Estimates of Population of the United States, 1910-1916",
+      "report_number": "Bulletin 133",
+      "publication_date_or_year": "1916",
+      "observation_period": "1910-1916",
+      "url": "https://www2.census.gov/library/publications/decennial/1910/bulletins/demographics/133-estimates-of-population-of-us-1910-1916.pdf",
+      "sha256": "77213181544c553be9f2ee360607333bb61cbaec74556b34856ff129d4cbb7f4",
+      "bytes": 5858235,
+      "total_pdf_pages": 42,
+      "evaluation_pdf_pages": [
+        4,
+        10,
+        11
+      ],
+      "development_pdf_pages": [
+        6
+      ],
+      "visual_tags": [
+        "light_uneven_print",
+        "speckle",
+        "small_type",
+        "two_columns_or_full_width_tables",
+        "multilevel_headers"
+      ],
+      "tags_are_descriptive_not_measured_ocr_quality": true,
+      "reuse_policy": "Local originals; publish URL/checksum manifest rather than automatically redistributing full PDFs. See DATASET.md for source policy.",
+      "page_observations": [
+        {
+          "pdf_page": 4,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 4747,
+          "text_render_mode_counts": {
+            "3": 777
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 6,
+          "split": "development",
+          "scan_image_objects": 2,
+          "extracted_text_characters": 4874,
+          "text_render_mode_counts": {
+            "3": 808
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 10,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 7565,
+          "text_render_mode_counts": {
+            "3": 1226
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        },
+        {
+          "pdf_page": 11,
+          "split": "evaluation",
+          "scan_image_objects": 1,
+          "extracted_text_characters": 8653,
+          "text_render_mode_counts": {
+            "3": 1457
+          },
+          "existing_text_layer": true,
+          "visual_inspection": "completed",
+          "reference_annotation": "pending"
+        }
+      ]
+    }
+  ]
+}

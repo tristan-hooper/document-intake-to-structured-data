@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "revision_id": "post-study-runtime-0.1.1",
+  "recorded_utc": "2026-10-06T15:50:48Z",
+  "purpose": "Record post-study operational fixes and current selected-pipeline reproducibility without changing the original comparison",
+  "current_package_version": "0.1.1",
+  "original_study": {
+    "freeze_path": "data/evaluation-freeze.json",
+    "freeze_sha256": "b99310f3a5ab580b6e49cebfe2160759de871b8bc52789c06a60b9619e61ed08",
+    "freeze_version": 1,
+    "frozen_at_utc": "2026-10-05T21:54:55.974162-04:00",
+    "evaluation_started_when_snapshot_created": false,
+    "benchmark_status": "completed",
+    "benchmark_finished_at_utc": "2026-10-05T22:29:23.933341-04:00",
+    "historical_runs": [
+      {
+        "pipeline": "A",
+        "status": "completed",
+        "exit_code": 0,
+        "scoring_exit_code": 0,
+        "run_id": "20261006T015506Z-A-e2f73840"
+      },
+      {
+        "pipeline": "B",
+        "status": "completed",
+        "exit_code": 0,
+        "scoring_exit_code": 0,
+        "run_id": "20261006T015848Z-B-c51c0cad"
+      },
+      {
+        "pipeline": "C",
+        "status": "completed",
+        "exit_code": 0,
+        "scoring_exit_code": 0,
+        "run_id": "20261006T020719Z-C-c36dc854"
+      },
+      {
+        "pipeline": "N",
+        "status": "completed",
+        "exit_code": 0,
+        "scoring_exit_code": 0,
+        "run_id": "20261006T022922Z-N-751cdf6d"
+      }
+    ],
+    "comparison_summary_path": "results/comparison.csv",
+    "score_outputs_unchanged": true
+  },
+  "post_study_changes": [
+    {
+      "files": [
+        "src/scan_intake/jobs.py",
+        "src/scan_intake/process.py",
+        "pyproject.toml"
+      ],
+      "summary": "On Windows, create the worker suspended, attach it to its job, then resume it so startup descendants cannot escape job ownership; psutil is a Windows runtime dependency."
+    },
+    {
+      "files": [
+        "src/scan_intake/extraction.py"
+      ],
+      "summary": "Retain visible footnote markers separately on invalid numeric candidates without silently accepting or normalizing the value."
+    },
+    {
+      "files": [
+        "tests/test_persistence_and_process.py",
+        "tests/test_contracts_and_numbers.py"
+      ],
+      "summary": "Add regression coverage for the early-startup child-process race and marker retention."
+    },
+    {
+      "files": [
+        "src/scan_intake/__init__.py",
+        "pyproject.toml"
+      ],
+      "summary": "Set package version to 0.1.1."
+    }
+  ],
+  "verification": {
+    "post_study_runtime_test_run": {
+      "command": ".venv/Scripts/python.exe -m pytest -q --basetemp .cache/pytest-runtime-revision-1",
+      "exit_code": 0,
+      "result": "32 passed in 1.91s",
+      "log_path": "results/verification/post-study-runtime-tests.txt",
+      "log_sha256": "dead0f71daa796fe03c27b4c88e850c09b75d964db3ff60cef1b8403d805f3b4",
+      "post_exit_warning": "pyreadline3 Console.__del__ emitted WinError 0xC0000008 after the passing summary; process exit remained 0.",
+      "initial_default_temp_attempt": {
+        "exit_code": 1,
+        "result": "22 passed, 10 pytest tmp_path setup errors",
+        "diagnosis": "Pytest could not create numbered fixture directories under the default system temp path; the affected test bodies did not run.",
+        "sanitized_note": "results/verification/post-study-test-environment-note.md",
+        "raw_output_retained_locally": "ignored .cache/diagnostics/post-study-runtime-tests-default-temp-failure-raw.txt"
+      }
+    },
+    "source_verification": {
+      "command": ".venv/Scripts/python.exe -m scan_intake.cli verify-sources",
+      "exit_code": 0,
+      "log_path": "results/verification/post-study-sources.txt",
+      "log_sha256": "0689eddfaa6d1f1fd1b756c47c53fc64666f5bd6c4baf887999453ec3843d8c9",
+      "result": "S1-S4 hashes, byte counts and PDF page counts verified."
+    },
+    "selected_runtime_setup": {
+      "command": "uv venv + uv pip install from requirements-rapidocr.lock + editable install + verify-sources + fetch_models.py --pipeline B",
+      "exit_code": 0,
+      "log_path": "results/verification/selected-b-environment-setup.txt",
+      "log_sha256": "9cbaee4148ca9c9ce93da9b0e9141dfb8c2eeb2b1b90b7c180a3bc3bb860b864",
+      "elapsed_seconds": 13.42,
+      "conditions": "fresh venv; uv wheel cache already populated; network disabled; source PDFs and RapidOCR weights already local",
+      "scoped_lock_package_count": 30,
+      "scoped_lock_version_subset_of_full_benchmark_lock": true
+    },
+    "selected_demo": {
+      "record_path": "results/demo/B-development-isolated-20261006T153036Z-B-7513530a/demo-record.json",
+      "record_sha256": "6732ba7695ffc01199fdccb2c65ac320c8b9cd3c6f11390c4e55a9cf9eed803c",
+      "run_id": "20261006T153036Z-B-7513530a",
+      "split": "development",
+      "exit_code": 0,
+      "completed_pages": 4,
+      "selected_pages": 4,
+      "candidate_rows": 16,
+      "review_rows": 16,
+      "accepted_coverage": 0,
+      "scored_against_references": false,
+      "output_hashes_verified": true
+    }
+  },
+  "unchanged_evaluation_artifacts_vs_original_freeze": [
+    "requirements-benchmark.lock",
+    "config/benchmark.json",
+    "data/manifest.json",
+    "data/model-manifest.json",
+    "data/annotations/targets.json",
+    "data/annotations/references.json",
+    "src/scan_intake/adapters.py",
+    "src/scan_intake/cli.py",
+    "src/scan_intake/evaluation.py",
+    "src/scan_intake/rapid_geometry.py",
+    "src/scan_intake/rendering.py",
+    "src/scan_intake/storage.py",
+    "src/scan_intake/worker.py",
+    "tests/test_rapid_geometry.py",
+    "tools/fetch_sources.py",
+    "tools/fetch_models.py",
+    "tools/run_benchmark.py",
+    "tools/freeze_evaluation.py"
+  ],
+  "changed_original_freeze_artifacts": {
+    "pyproject.toml": {
+      "pre_study_sha256": "52c459f703c7f6857e70e1f021fd0c2641b45df551ef71039ffba2045dc92b46",
+      "current_sha256": "8a8bb7b3f23ada0ce985dbb4bd4c8eec9eef116eb3d0aead6309394c99b52036"
+    },
+    "data/annotations/README.md": {
+      "pre_study_sha256": "e7c35c96b21ac1869e0cfa31610ea4285f79765a770ed6663db5b6b2ca611f41",
+      "current_sha256": "47b34e56dad5cb0cf66b1c76317cf307839f3874ac6f8341337d0acb12206315"
+    },
+    "src/scan_intake/__init__.py": {
+      "pre_study_sha256": "317253168afbf863f21446773fe06f46ca19ff662a7e70e99ad8b6de91f706bc",
+      "current_sha256": "5b187b91dabfa53450f04d4e1424c33b7d3d4732ee8ab0ec7dd589d79e3d889f"
+    },
+    "src/scan_intake/extraction.py": {
+      "pre_study_sha256": "f0fb3cd5952855e18fc0d914a592b1f8df49043e6bd2a59444ebf579dd13cec7",
+      "current_sha256": "d746dc4ecb297d5c597aaf3299e85a1a0b979e27d43bc4034754c51d99a58c17"
+    },
+    "src/scan_intake/jobs.py": {
+      "pre_study_sha256": "0eb25f68c1fe8e9ac4efb63aa78444f5661ff4cb052a2428479a7989a5db7d59",
+      "current_sha256": "579c98b3af8eebbcdc4d7cc54339e5485aeac67d6b70ba697c84e498704aa73d"
+    },
+    "src/scan_intake/process.py": {
+      "pre_study_sha256": "936b10317bd28a833489922b683c3d75db327a92dc58d1c969d2ab2afe9f06ff",
+      "current_sha256": "5c3071bfa5a6f01c4f96ba642fa076a8bd84669dc770f03d73c5f47694301ac0"
+    },
+    "tests/test_contracts_and_numbers.py": {
+      "pre_study_sha256": "9f12e1ddd9ffb09f2cbf6d1c2444a658eae48925b4d9196804541252352ba0ec",
+      "current_sha256": "ade8da4da00927b2474bd2fbff7f2bb66e000e42ec0cd9b7a5e2e624b6c3d3de"
+    },
+    "src/scan_intake/contracts.py": {
+      "pre_study_sha256": "73550f7630b93114126312e80d7fd38395cb03c462059368e65417bb12706ada",
+      "current_sha256": "bf44f1da658c919eee28fe237ddbbdf88ca88ac272a8cd889bc1bbfee121ab1a"
+    },
+    "tests/test_persistence_and_process.py": {
+      "pre_study_sha256": "0c59fd33e307d9750ab32bc539f0aee9eb42500f82da1640ed71e5c9b2026ddf",
+      "current_sha256": "37cf097d3a7e56a9cda8074670887ef676a09583f768fd1554570656bc2b23d7"
+    }
+  },
+  "new_scoped_dependency_lock": {
+    "path": "requirements-rapidocr.lock",
+    "sha256": "85307ee1513e646e1716083d01195ca2aa37bc2b381a5c4e2608ac94ba8937a1",
+    "package_count": 30,
+    "all_pins_match_full_benchmark_lock": true
+  },
+  "interpretation": "The A/B/C/N evaluation outputs were generated before these operational changes. The source manifest, model manifest, references, targets, benchmark configuration and full benchmark lock remain byte-identical to the original freeze. The post-study development demo is not a new evaluation score."
+}

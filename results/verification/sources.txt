@@ -1,0 +1,4 @@
+S1 hash, byte count and PDF page count verified
+S2 hash, byte count and PDF page count verified
+S3 hash, byte count and PDF page count verified
+S4 hash, byte count and PDF page count verified
