@@ -16,4 +16,4 @@ On October 6, 2026, a clean Windows Git checkout and new Python 3.12 environment
 
 Git preserves file bytes through `.gitattributes`, and all 24 saved benchmark artifact hashes survived checkout. The source downloader sends a browser-style user-agent because the Census host rejected Python's default request. Every downloaded PDF must still match its recorded size and hash. The used benchmark freeze stays unchanged; a future comparison must make its own freeze.
 
-The detailed [release verification record](../results/verification/release-preparation-20261006.json) gives the checked scope and outstanding publication access. GitHub publication is pending.
+The detailed [release preparation record](../results/verification/release-preparation-20261006.json) gives the checked scope and the access status at that earlier checkpoint. The source is now [published on GitHub](https://github.com/tristan-hooper/document-intake-to-structured-data). Original preparation and benchmark records remain unchanged.

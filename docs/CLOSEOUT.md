@@ -1,6 +1,6 @@
 # Project One closeout
 
-Closed locally on October 6, 2026. The V1 prototype and exploratory comparison are complete. The project has not been published or deployed.
+Completed locally and [published on GitHub](https://github.com/tristan-hooper/document-intake-to-structured-data) on October 6, 2026. The V1 prototype and exploratory comparison are complete. This is a source release, not a deployed service.
 
 ## Purpose and delivered scope
 
@@ -20,6 +20,6 @@ The [comparison](../results/final/comparison.csv), [case study](CASE_STUDY.md), 
 
 This is an exploratory study of selected pages. The references were checked twice by the same Codex-assisted annotator, with no independent human adjudication. The study does not estimate accuracy on unseen reports, measure complete table reconstruction, or demonstrate staff-time savings or safe automatic approval.
 
-The source release now has an MIT license, third-party notices, and a 106-package dependency inventory. A clean Windows checkout completed the selected RapidOCR demo and passed 36 tests; installation used cached packages. GitHub publication is pending repository access. The full three-pipeline clean-checkout benchmark has not been verified. See the [release record](RELEASE.md) for the checked scope. Before making stronger accuracy claims, have an independent person check the references and evaluate more report families.
+The source release has an MIT license, third-party notices, and a 106-package dependency inventory. A clean Windows checkout completed the selected RapidOCR demo and passed 36 tests; installation used cached packages. The full three-pipeline clean-checkout benchmark has not been verified. See the [release record](RELEASE.md) for the checked scope. Before making stronger accuracy claims, have an independent person check the references and evaluate more report families.
 
 Future benchmark executions must create a new freeze and use a new output folder, as described in the README. Existing benchmark records are retained unchanged.
